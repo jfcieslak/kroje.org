@@ -1,19 +1,12 @@
 import Vue from 'vue'
 import App from './App'
-import Hello from './components/Hello.vue'
-
+import router from './router'
 import VueRouter from 'vue-router'
 import VueResource from 'vue-resource'
 
 /* eslint-disable no-new */
 Vue.use(VueResource)
 Vue.use(VueRouter)
-
-const router = new VueRouter({
-	routes: [
-		{path: '/hello', component: Hello}
-	]
-})
 
 new Vue({
 	router,
