@@ -81,6 +81,7 @@ var webpackConfig = merge(baseWebpackConfig, {
 			name: 'manifest',
 			chunks: ['vendor']
 		}),
+		
 		new CopyWebpackPlugin([
 			{from: 'CNAME'},
 			{from: 'google*'}

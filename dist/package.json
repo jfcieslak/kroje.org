@@ -1,0 +1,10 @@
+{
+ "name": "kroje.org",
+ "version": "1.0.0",
+ "description": "Warszawskie Kroje",
+ "author": "Miastodwa",
+ "private": true,
+ "scripts": {
+   "postinstall": "npm install express"
+ }
+}

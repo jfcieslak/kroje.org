@@ -42,7 +42,7 @@ export default {
 	},
 	methods: {
 		getSiteData() {
-			this.$http.get('static/data/index.md')
+			this.$http.get('/static/data/index.md')
 			.then(
 				res => { this.siteData = fm(res.body).attributes },
 				error => { console.log(error) }

@@ -1,0 +1,12 @@
+/* Webfont: NocturneSerif-Regular */@font-face {
+    font-family: 'NocturneSerif';
+    src: url('NocturneSerif-Regular.eot'); /* IE9 Compat Modes */
+    src: url('NocturneSerif-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('NocturneSerif-Regular.woff') format('woff'), /* Modern Browsers */
+         url('NocturneSerif-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('NocturneSerif-Regular.svg#NocturneSerif-Regular') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

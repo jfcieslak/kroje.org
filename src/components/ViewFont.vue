@@ -6,7 +6,7 @@
 	article.font-article
 		aside.article-sidebar
 			section.info
-				h4.section-title {{pageData.font.name}}
+				h4.section-title — {{pageData.font.name}}
 				.section-content
 					p.def {{labels[lang].styles}}
 					ul.styles-list
@@ -31,10 +31,10 @@
 				.section-content
 					p {{pageData.font.desc}}
 			section.tester
-				h4.section-title {{labels[lang].tester}}
+				h4.section-title — {{labels[lang].tester}}:
 				font-tester(:font="pageData.font.name", :styles="pageData.font.styles")
-			section.download
-				a.button.download-font(:href="pageData.font.download", :title="pageData.font.name") {{labels[lang].download}}
+		section.download
+			a.button.download-font.disabled(:title="pageData.font.name" @click="alertDisabled") {{labels[lang].download}}
 </template>
 
 <script>
@@ -54,7 +54,7 @@ export default {
 					info: 'szczegóły',
 					author: 'Projektant',
 					desc: 'opis',
-					tester: 'WYPRÓBUJ:',
+					tester: 'wypróbuj',
 					sets: 'zestaw znaków:',
 					styles: 'dostępne odmiany:',
 					download: 'pobierz font'
@@ -63,7 +63,7 @@ export default {
 					info: 'info',
 					author: 'Designer',
 					desc: 'about',
-					tester: 'TRY IT OUT:',
+					tester: 'try it out',
 					sets: 'character set:',
 					styles: 'available style variations:',
 					download: 'download font'
@@ -92,7 +92,7 @@ export default {
 		getPageData() {
 			let font = this.$route.params.font
 			let lang = this.lang
-			this.$http.get(`static/data/fonts/${font}/${lang}.md`)
+			this.$http.get(`/static/data/fonts/${font}/${lang}.md`)
 			.then(
 				res => {
 					this.pageData = fm(res.body).attributes
@@ -105,6 +105,9 @@ export default {
 		},
 		slideStyle(link) {
 			return { backgroundImage: `url('${link}')` }
+		},
+		alertDisabled() {
+			window.alert('Wszystkie fonty będą udostępnione 10 listopada 2016')
 		}
 	},
 	watch: {
@@ -150,7 +153,6 @@ export default {
 	margin: 1rem 0
 .font-article
 	lost-center: 100% 0 flex
-	padding-bottom: 4rem
 	.article-sidebar
 		lost-column: 1/3 2 $gutter*2 flex
 		padding-left: $gutter
@@ -159,7 +161,7 @@ export default {
 		lost-column: 2/3 2 $gutter*2 flex
 		padding-right: $gutter
 		padding-top: 6.5rem
-		margin-bottom: 10rem
+		margin-bottom: 5rem
 
 	section.info
 		font-size: 1rem
@@ -211,22 +213,6 @@ export default {
 				color: white
 				background-color: blue
 
-	section.download
-		padding-top: 3rem
-		.download-font
-			display: block
-			width: 100%
-			padding: 1rem
-			max-width: 30rem
-			text-align: center
-			text-transform: uppercase
-			font-size: 1rem
-			letter-spacing: 0.025em
-			color: blue
-			border: 1px solid blue
-			&:hover
-				color: white
-				background-color: blue
 	section.desc
 		font-weight: 200
 		line-height: 1.9em
@@ -237,7 +223,29 @@ export default {
 		max-width: 50rem
 		margin-top: 10rem
 		#font-tester
-			margin-top: 2rem
-			border-top: 1px solid black
-			padding-top: 2rem
+			margin-top: 3rem
+
+section.download
+	padding: 3rem 0
+	width: 100%
+	background-color: rgba(black, .05)
+	.download-font
+		display: block
+		width: 100%
+		margin: 0 auto
+		padding: 1rem
+		max-width: 30rem
+		text-align: center
+		text-transform: uppercase
+		font-size: 1rem
+		letter-spacing: 0.025em
+		color: blue
+		border: 1px solid blue
+		&:hover
+			color: white
+			background-color: blue
+		&.disabled
+			cursor: not-allowed
+			opacity: .5
+
 </style>

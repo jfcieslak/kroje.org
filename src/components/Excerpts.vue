@@ -60,5 +60,6 @@ export default {
 			width: 55%
 			float: left
 			font-size: 1rem
+			line-height: 1.7em
 
 </style>

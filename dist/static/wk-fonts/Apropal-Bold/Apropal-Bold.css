@@ -1,0 +1,12 @@
+/* Webfont: Apropal-Bold */@font-face {
+    font-family: 'ApropalBold';
+    src: url('Apropal-Bold.eot'); /* IE9 Compat Modes */
+    src: url('Apropal-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Apropal-Bold.woff') format('woff'), /* Modern Browsers */
+         url('Apropal-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('Apropal-Bold.svg#Apropal-Bold') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
