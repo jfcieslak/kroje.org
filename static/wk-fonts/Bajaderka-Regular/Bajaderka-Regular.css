@@ -1,0 +1,12 @@
+/* Webfont: Bajaderka-Regular */@font-face {
+    font-family: 'Bajaderka';
+    src: url('Bajaderka-Regular.eot'); /* IE9 Compat Modes */
+    src: url('Bajaderka-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Bajaderka-Regular.woff') format('woff'), /* Modern Browsers */
+         url('Bajaderka-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('Bajaderka-Regular.svg#Bajaderka-Regular') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

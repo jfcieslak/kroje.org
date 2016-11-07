@@ -13,8 +13,12 @@ module.exports = {
     // add your custom rules here
     'rules': {
         // allow paren-less arrow functions
-        'arrow-parens': 0,
+        'arrow-parens': 1,
+        'space-in-parens': 0,
         'no-tabs': 0,
+        'space-before-blocks': 0,
+        'comma-spacing': 0,
+        'block-spacing': 0,
         'space-before-function-paren': 0,
         'indent': ['error','tab'],
         'arrow-parens': 0,

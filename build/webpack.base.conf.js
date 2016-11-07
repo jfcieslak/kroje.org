@@ -36,13 +36,12 @@ module.exports = {
 	},
 	module: {
 		preLoaders: [
-			// Turn of ESlint if you will develop with coffee
-			// {
-			// 	test: /\.vue$/,
-			// 	loader: 'eslint',
-			// 	include: projectRoot,
-			// 	exclude: /node_modules/
-			// },
+			{
+				test: /\.vue$/,
+				loader: 'eslint',
+				include: projectRoot,
+				exclude: /node_modules/
+			},
 			{
 				test: /\.js$/,
 				loader: 'eslint',
@@ -53,10 +52,6 @@ module.exports = {
 		loaders: [
 			{
 				test: /\.vue$/,
-				loader: 'vue'
-			},
-			{
-				test: /\.cvue$/,
 				loader: 'vue'
 			},
 			{

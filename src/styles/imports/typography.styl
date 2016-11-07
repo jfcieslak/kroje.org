@@ -1,0 +1,207 @@
+// FONTS
+// SF UI
+fontface(SF, '/static/fonts/SF/SF-200i', 200, italic)
+fontface(SF, '/static/fonts/SF/SF-200', 200, normal)
+fontface(SF, '/static/fonts/SF/SF-400', 400, normal)
+fontface(SF, '/static/fonts/SF/SF-700', 700, normal)
+fontface(SF, '/static/fonts/SF/SF-400i', 400, italic)
+fontface(SF, '/static/fonts/SF/SF-700i', 700, italic)
+// MODERAT
+fontface(M1, '/static/fonts/M1/M1-400', 400, normal)
+fontface(M1, '/static/fonts/M1/M1-700', 700, normal)
+// MODERAT 2
+fontface(M2, '/static/fonts/M2/M2-400', 400, normal)
+fontface(M2, '/static/fonts/M2/M2-700', 700, normal)
+// ICONS
+fontface(icons, '/static/fonts/icons/icons', 400, normal)
+
+
+// WK FONTS
+fontface(Apropal-Bold, '/static/wk-fonts/Apropal-Bold/Apropal-Bold', 400, normal)
+fontface(Bajaderka-Regular, '/static/wk-fonts/Bajaderka-Regular/Bajaderka-Regular', 400, normal)
+fontface(Cyrulik-Sharp, '/static/wk-fonts/Cyrulik-Sharp/Cyrulik-Sharp', 400, normal)
+fontface(Cyrulik-SharpBold, '/static/wk-fonts/Cyrulik-SharpBold/Cyrulik-SharpBold', 400, normal)
+fontface(Cyrulik-Rounded, '/static/wk-fonts/Cyrulik-Rounded/Cyrulik-Rounded', 400, normal)
+fontface(Cyrulik-Stencil, '/static/wk-fonts/Cyrulik-Stencil/Cyrulik-Stencil', 400, normal)
+fontface(Havana-Regular, '/static/wk-fonts/Havana-Regular/Havana-Regular', 400, normal)
+fontface(Lombard-Regular, '/static/wk-fonts/Lombard-Regular/Lombard-Regular', 400, normal)
+fontface(Magiel-Black, '/static/wk-fonts/Magiel-Black/Magiel-Black', 400, normal)
+fontface(NocturneSerif, '/static/wk-fonts/NocturneSerif/NocturneSerif', 400, normal)
+fontface(Olympic-Light, '/static/wk-fonts/Olympic-Light/Olympic-Light', 400, normal)
+fontface(Praho-Black, '/static/wk-fonts/Praho-Black/Praho-Black', 400, normal)
+fontface(Rewir-Light, '/static/wk-fonts/Rewir-Light/Rewir-Light', 400, normal)
+fontface(Tagger-Regular, '/static/wk-fonts/Tagger-Regular/Tagger-Regular', 400, normal)
+fontface(Zaklad-Regular, '/static/wk-fonts/Zaklad-Regular/Zaklad-Regular', 400, normal)
+
+
+body
+	color: $base_font_color
+	font-family: $base_font_family
+	font-size: $base_font_size
+	line-height: $base_line_height
+	-webkit-font-smoothing: antialiased
+
+// ! HEADINGS, PARAGRAPH, ANCHOR
+
+h1, h2, h3, h4, h5, h6
+	text-rendering: optimizeLegibility // Fix the character spacing for headings
+	margin-bottom: 1em
+	letter-spacing: .05em
+h1
+	font-size: 2rem
+	line-height: 1.4em
+	font-weight: 700
+	font-style: normal
+	margin-bottom: 1em
+h2
+	font-size: 1.8rem
+	line-height: 1.4em
+	font-weight: 700
+	font-style: normal
+	margin-bottom: 0.8em
+h3
+	font-size: 1.2rem
+	line-height: 1.4em
+	font-weight: 700
+	font-style: normal
+	margin-bottom: 0.4em
+h4
+	font-size: 1rem
+	line-height: 1.4em
+	font-weight: 700
+	font-style: normal
+	margin-bottom: 0.4em
+h5
+	font-size: 1rem
+	line-height: 1.4em
+	font-weight: 700
+	font-style: normal
+	margin-bottom: 0.4em
+h6
+	font-size: 1rem
+	line-height: 1.4em
+	font-weight: 700
+	font-style: normal
+	margin-bottom: 0.4em
+p
+	margin: 0 0 ($base_font_size)
+a
+	color: inherit
+	text-decoration: none
+em
+	font-style: italic
+
+strong
+	font-weight: 700
+
+// DESTINATION SPECIFIC LINKS:
+// a[href^="http://"]
+// a[href^="/"]
+// a[href^=".."]
+// a[href^="mailto:"]
+// a[href$=".pdf"]
+// a[href$=".doc"]
+// a[href$=".docx"]
+// a[href$=".mp3"]
+// a[href$=".zip"]
+
+img
+	margin: 0
+	max-width: 100%
+	height: auto
+	vertical-align: middle
+
+// ! TABLES
+table
+	border-spacing: 0
+	border-collapse: separate
+	border: 1px solid $table_border_color
+	text-align: left
+	margin: 1em 0
+	width: 100%
+	caption
+		font-weight: 700
+	thead
+	tfoot
+	tbody
+	tr
+		border-bottom: 1px solid $table_border_color
+	th
+		font-weight: 700
+		padding: 10px
+	td
+		padding: 10px
+
+
+
+// ! LISTS
+
+
+ul, ol
+	padding-left: $base_line_height
+	line-height: $base_line_height
+	letter-spacing: 0.02em
+	margin-bottom: 2em
+	margin-left: .6em
+	ol, ul
+		font-size: 1em
+ul
+	list-style-type: disc
+ol
+	list-style-type: decimal
+	ol
+		list-style-type:lower-alpha
+
+
+
+// ! MISCELLANEOUS
+abbr, acronym
+	border-bottom: $abbr_border
+	cursor: help
+address
+	display: block
+	margin: 0 0 $base_line_height / 2
+hgroup
+	margin-bottom: $base_line_height / 2
+del
+	color: lighten $base_font_color, 15%
+pre
+	overflow:auto
+	display: block
+	font-size: 1.2rem
+	line-height: 1.4em
+	font-family: monospace
+	padding: 1em
+	border-left: 1px solid $light
+	margin: 0.5em 0
+	background-color: #EEE
+
+hr
+	border-bottom: 1px solid $base_border_color
+	border-left: none
+	border-right: none
+	border-top: none
+	margin: $base_line_height 0
+
+
+// ! BLOCKQUOTE
+blockquote
+	font-style: italic
+	background-repeat: no-repeat
+	background-position: top left
+cite
+	margin-top: 1em
+	display: inline-block
+	&:before
+		content: '\2014 \00A0'
+
+button::-moz-focus-inner,
+input::-moz-focus-inner
+	padding: 0
+	border: 0
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"]
+	border: none
+	cursor: pointer
