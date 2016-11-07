@@ -4,10 +4,8 @@
 			h3 {{siteTitle.main}}
 			h4 {{siteTitle.sub}}
 		nav#main-menu
-			router-link.menu-link(v-for="item in items", :to="item.href")
-				{{item.title}}
-			router-link#lang-switch(:to="langSwitch.toPath")
-				{{ langs[langSwitch.toLang] }}
+			router-link.menu-link(v-for="item in items", :to="item.href") {{item.title}}
+			router-link#lang-switch(:to="langSwitch.toPath") {{ langs[langSwitch.toLang] }}
 
 </template>
 
