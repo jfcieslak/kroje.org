@@ -36,7 +36,7 @@ export default {
 			left: 2rem
 			size: 6rem
 			box-sizing: border-box
-			background-color: rgba(#FEE94E, .9)
+			background-color: rgba($wk-yellow, .9)
 			border-radius: 50%
 			font-size: 1rem
 			line-height: 1em

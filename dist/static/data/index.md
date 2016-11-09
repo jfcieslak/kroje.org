@@ -129,7 +129,7 @@ footer:
         -
             link: http://www.panskaskorka.com/
             logo: /static/images/logos/ps.svg
-            name: Pańka Skórka
+            name: Pańska Skórka
     organizers:
         -
             link: https://www.facebook.com/miastodwa/
