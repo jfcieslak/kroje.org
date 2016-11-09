@@ -29,7 +29,6 @@
 
 
 <script>
-import fm from 'front-matter'
 import marked from 'marked'
 marked.setOptions({breaks: true})
 
@@ -59,11 +58,11 @@ export default {
 			return marked(content)
 		},
 		getPageData() {
-			this.$http.get(`static/data/home/${this.lang}.md`)
+			this.$http.get(`static/data/home/${this.lang}.json`)
 			.then(
 				res => {
-					this.pageData = fm(res.body).attributes
-					this.body = fm(res.body).body
+					this.pageData = res.body.attributes
+					this.body = res.body.body
 				}
 			).bind(this)
 		}

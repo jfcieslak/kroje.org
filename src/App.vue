@@ -16,10 +16,8 @@
 </template>
 
 <script>
-import fm from 'front-matter'
 import TopMenu from './components/TopMenu'
 import PageFooter from './components/PageFooter'
-
 export default {
 	name: 'app',
 	components: {TopMenu, PageFooter},
@@ -42,9 +40,9 @@ export default {
 	},
 	methods: {
 		getSiteData() {
-			this.$http.get('/static/data/index.md')
+			this.$http.get('/static/data/index.json')
 			.then(
-				res => { this.siteData = fm(res.body).attributes },
+				res => { this.siteData = (res.body).attributes },
 				error => { console.log(error) }
 			).bind(this)
 		}

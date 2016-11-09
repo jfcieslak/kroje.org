@@ -38,7 +38,6 @@
 </template>
 
 <script>
-import fm from 'front-matter'
 import FontTester from './FontTester'
 
 export default {
@@ -92,11 +91,11 @@ export default {
 		getPageData() {
 			let font = this.$route.params.font
 			let lang = this.lang
-			this.$http.get(`/static/data/fonts/${font}/${lang}.md`)
+			this.$http.get(`/static/data/fonts/${font}/${lang}.json`)
 			.then(
 				res => {
-					this.pageData = fm(res.body).attributes
-					this.body = fm(res.body).body
+					this.pageData = res.body.attributes
+					this.body = res.body.body
 				}
 			).bind(this)
 		},

@@ -85,10 +85,10 @@ more:
     store:
         wip: true
         title: Sklep
-        text: Wesprzyj Warszawskie Kroje i spraw sobie ręcznie produkowane typgraficzne gadżety z limitowanej serii.
+        text: Wesprzyj Warszawskie Kroje i spraw sobie ręcznie produkowane typograficzne gadżety z limitowanej serii.
 ---
 Warszawskie Kroje to
-[12 nowych krojów pism](/#fontlist)
+__12 nowych krojów pism__
 stworzonych specjalnie dla Warszawy, w oparciu o lokalne tradycje typograficzne.
 
 Wszystkie fonty dostępne są za darmo.
