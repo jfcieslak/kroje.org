@@ -12,17 +12,17 @@ font:
             font: Praho-Black
     covers:
         -
-            link: static/images/font-covers/wk-52.svg
+            link: /static/images/font-covers/wk-52.svg
             color: "#B49D4F"
         -
-            link: static/images/font-covers/wk-50.svg
+            link: /static/images/font-covers/wk-50.svg
             color: "#B49D4F"
         -
-            link: static/images/font-covers/wk-51.svg
+            link: /static/images/font-covers/wk-51.svg
             color: "#B49D4F"
 author:
     name: Maciej Włoczewski
-    photo: static/images/authors/mw.jpg
+    photo: /static/images/authors/mw.jpg
     desc: Student na Wydziale Grafiki Akademii Sztuk Pięknych w Warszawie. Zajmuję się projektowaniem krojów pisma oraz fotografią.
     links:
         -

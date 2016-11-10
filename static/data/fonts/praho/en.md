@@ -4,7 +4,7 @@ font:
     name: Praho
     download: static/wk-fonts/Praho.zip
     sets: CE, WE
-    desc: Inspiracją dla kroju „Praho” były napisy o dużym kontraście i wąskiej formie występujące w Warszawie w czasach PRL-u. Projekt „Praho” przetwarza i odnawia charakterystyczne uliczne formy liter, tworząc zupełnie nowy i wpółczesny krój, który jednak posiada mocny lokalny charakter.
+    desc: “Praho” is inspired by large contrasts and narrow shapes, found in fonts used in Warsaw before 1989, specifically on older street and shop signage. The result is an original modern typeface with a strong local vibe.
 
     styles:
         -
@@ -12,18 +12,18 @@ font:
             font: Praho-Black
     covers:
         -
-            link: static/images/font-covers/wk-52.svg
+            link: /static/images/font-covers/wk-52.svg
             color: "#B49D4F"
         -
-            link: static/images/font-covers/wk-50.svg
+            link: /static/images/font-covers/wk-50.svg
             color: "#B49D4F"
         -
-            link: static/images/font-covers/wk-51.svg
+            link: /static/images/font-covers/wk-51.svg
             color: "#B49D4F"
 author:
     name: Maciej Włoczewski
-    photo: static/images/authors/mw.jpg
-    desc: Student na Wydziale Grafiki Akademii Sztuk Pięknych w Warszawie. Zajmuję się projektowaniem krojów pisma oraz fotografią.
+    photo: /static/images/authors/mw.jpg
+    desc: Student of the Graphic Design Dept. on Warsaw Academy of Fine Arts. Type designer and a photographer.
     links:
         -
             link: https://www.behance.net/mwtype

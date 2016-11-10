@@ -11,17 +11,17 @@ font:
             font: Havana-Regular
     covers:
         -
-            link: static/images/font-covers/wk-33.svg
+            link: /static/images/font-covers/wk-33.svg
             color: "#474A58"
         -
-            link: static/images/font-covers/wk-32.svg
+            link: /static/images/font-covers/wk-32.svg
             color: "#474A58"
         -
-            link: static/images/font-covers/wk-34.svg
+            link: /static/images/font-covers/wk-34.svg
             color: "#474A58"
 author:
     name: Joanna Angulska
-    photo: static/images/authors/ja.jpg
+    photo: /static/images/authors/ja.jpg
     desc: Absolwentka Wydziału Grafiki i Komunikacji Wizualnej na Uniwersytecie Artystycznym w Poznaniu. Zajmuję się projektowaniem logotypów, składem tekstu i szeroko pojętym brandingiem. Uczestniczka i wykładowczymi konferencji „Plaster” w Toruniu oraz „Typolub” w Lublinie.
     links:
         -

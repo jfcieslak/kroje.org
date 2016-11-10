@@ -12,17 +12,17 @@ font:
             font: Rewir-Light
     covers:
         -
-            link: static/images/font-covers/wk-55.svg
+            link: /static/images/font-covers/wk-55.svg
             color: "#E54847"
         -
-            link: static/images/font-covers/wk-54.svg
+            link: /static/images/font-covers/wk-54.svg
             color: "#E54847"
         -
-            link: static/images/font-covers/wk-55.svg
+            link: /static/images/font-covers/wk-55.svg
             color: "#E54847"
 author:
     name: Robert Jarzec
-    photo: static/images/authors/rj.jpg
+    photo: /static/images/authors/rj.jpg
     desc: Projektant, zajmuje się typografią, liternictwem, architekturą informacji i projektowaniem zorientowanym na doświadczenie użytkownika. Absolwent Pracowni Projektowania Litery Uniwersytetu Artystycznego w Poznaniu oraz studiów Kulturoznawczych na Uniwersytecie im. Adama Mickiewicza. Obecnie wykładowca Uniwersytetu Artystycznego w Poznaniu.
     links:
         -

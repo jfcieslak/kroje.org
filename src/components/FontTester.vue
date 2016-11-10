@@ -99,6 +99,8 @@ export default {
 		#choose-right
 			background-image: $img-align-right
 	.test-area
+		font-variant-ligatures: contextual
+		font-feature-settings: "kern" on, "liga" on, "calt" on
 		border: none
 		line-height: 1.4em
 		margin-top: 2rem

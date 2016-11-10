@@ -13,21 +13,21 @@ font:
             font: Tagger-Regular
     covers:
         -
-            link: static/images/font-covers/wk-31.svg
+            link: /static/images/font-covers/wk-31.svg
             color: "#474A58"
         -
-            link: static/images/font-covers/wk-29.svg
+            link: /static/images/font-covers/wk-29.svg
             color: "#474A58"
         -
-            link: static/images/font-covers/wk-30.svg
+            link: /static/images/font-covers/wk-30.svg
             color: "#474A58"
         -
-            link: static/images/font-covers/wk-31.svg
+            link: /static/images/font-covers/wk-31.svg
             color: "#474A58"
 
 author:
     name: Zuzanna Rogatty
-    photo: static/images/authors/zr.jpg
+    photo: /static/images/authors/zr.jpg
     desc: 'Projektantka graficzna specjalizująca się w identyfikacjach wizualnych oraz liternictwie i typografii. Absolwentka Wydziału Grafiki i Komunikacji Wizualnej na Uniwersytecie Artystycznym w Poznaniu. Pracuje w studio projektowym Mamastudio. Jest autorką identyfikacji m.in.: Festiwalu Dwa Brzegi, Festiwalu im. Zygmunta Haupta, Festiwalu FAMA, a także uczestniczką wystaw „Places of Origin: Polish Graphic Design in Context” w Reykjaviku, „Ogólnopolskiej Wystawy Znaków Graficznych” oraz „Typopolo”.'
     links:
         -

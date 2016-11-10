@@ -1,6 +1,6 @@
 <template lang='jade'>
 	#top-menu
-		router-link#logo-link(:to="'/'")
+		router-link#logo-link(:to="'/'+lang")
 			h3 {{siteTitle.main}}
 			h4 {{siteTitle.sub}}
 		nav#main-menu

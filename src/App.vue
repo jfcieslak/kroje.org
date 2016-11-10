@@ -16,8 +16,11 @@
 </template>
 
 <script>
+import smoothscroll from 'smoothscroll-polyfill'
+smoothscroll.polyfill()
 import TopMenu from './components/TopMenu'
 import PageFooter from './components/PageFooter'
+
 export default {
 	name: 'app',
 	components: {TopMenu, PageFooter},
@@ -48,7 +51,10 @@ export default {
 		}
 	},
 	watch: {
-		$route(next, curr) { this.lang = next.params.lang || 'pl' }
+		$route(next, curr) {
+			this.lang = next.params.lang || 'pl'
+			window.scroll({ top: 0, behavior: 'smooth' })
+		}
 	},
 	created() {
 		this.getSiteData()

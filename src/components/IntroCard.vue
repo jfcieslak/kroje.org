@@ -7,9 +7,6 @@ export default {
 	name: 'intro-card',
 	props: {
 		msg: String
-	},
-	mounted(){
-		console.log(this.msg)
 	}
 }
 </script>

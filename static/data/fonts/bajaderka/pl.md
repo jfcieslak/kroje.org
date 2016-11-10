@@ -11,17 +11,17 @@ font:
             font: Bajaderka-Regular
     covers:
         -
-            link: static/images/font-covers/wk-58.svg
+            link: /static/images/font-covers/wk-58.svg
             color: "#FDEBE8"
         -
-            link: static/images/font-covers/wk-57.svg
+            link: /static/images/font-covers/wk-57.svg
             color: "#FDEBE8"
         -
-            link: static/images/font-covers/wk-56.svg
+            link: /static/images/font-covers/wk-56.svg
             color: "#FDEBE8"
 author:
     name: Beata Kurek
-    photo: static/images/authors/bk.jpg
+    photo: /static/images/authors/bk.jpg
     desc: Absolwentka Wydziału Grafiki i Komunikacji Wizualnej na Uniwersytecie Artystycznym w Poznaniu. Jako LoveLetters Studio zajmuje się projektowaniem liternictwa opartego na kaligrafii i piśmie odręcznym oraz prowadzeniem warsztatów literniczych. Uczestniczka projektów „Bękart” oraz „Jasnowidze”.
     links:
         -

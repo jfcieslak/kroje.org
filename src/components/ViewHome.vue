@@ -18,13 +18,13 @@
 			.module.full#about-slides
 				picture
 					source(media="(min-width:1081px)"
-						srcset="static/images/other/cover-about-1400.jpg 1x, static/images/other/cover-about-1400@2.jpg 2x")
+						srcset="/static/images/other/cover-about-1-1400.jpg 1x, /static/images/other/cover-about-1-1400@2.jpg 2x")
 					source(media="(min-width:781px)"
-						srcset="static/images/other/cover-about-1080.jpg 1x, static/images/other/cover-about-1080@2.jpg 2x")
+						srcset="/static/images/other/cover-about-1-1080.jpg 1x, /static/images/other/cover-about-1-1080@2.jpg 2x")
 					source(media="(max-width:780px)"
-						srcset="static/images/other/cover-about-780.jpg 1x, static/images/other/cover-about-780@2.jpg 2x")
+						srcset="/static/images/other/cover-about-1-780.jpg 1x, /static/images/other/cover-about-1-780@2.jpg 2x")
 					img(alt="Warszawskie Kroje"
-						src="static/images/other/cover-about-1080.jpg")
+						src="/static/images/other/cover-about-1-1080.jpg")
 </template>
 
 
@@ -58,7 +58,7 @@ export default {
 			return marked(content)
 		},
 		getPageData() {
-			this.$http.get(`static/data/home/${this.lang}.json`)
+			this.$http.get(`/static/data/home/${this.lang}.json`)
 			.then(
 				res => {
 					this.pageData = res.body.attributes

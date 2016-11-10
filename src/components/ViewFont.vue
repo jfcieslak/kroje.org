@@ -132,7 +132,6 @@ export default {
 		position: relative
 		width: 100%
 		height: 40vw
-		background-color: pink
 		.cover-slide-text
 			position: absolute
 			top: 15%

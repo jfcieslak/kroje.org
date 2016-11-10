@@ -1,0 +1,12 @@
+/* Webfont: Cyrulik-Sharp */@font-face {
+    font-family: 'CyrulikSharp';
+    src: url('Cyrulik-Sharp.eot'); /* IE9 Compat Modes */
+    src: url('Cyrulik-Sharp.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Cyrulik-Sharp.woff') format('woff'), /* Modern Browsers */
+         url('Cyrulik-Sharp.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('Cyrulik-Sharp.svg#Cyrulik-Sharp') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

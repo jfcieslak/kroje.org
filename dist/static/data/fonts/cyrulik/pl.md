@@ -20,18 +20,18 @@ font:
             font: Cyrulik-Stencil
     covers:
         -
-            link: static/images/font-covers/wk-60.svg
+            link: /static/images/font-covers/wk-60.svg
             color: "#E54847"
         -
-            link: static/images/font-covers/wk-59.svg
+            link: /static/images/font-covers/wk-59.svg
             color: "#E54847"
         -
-            link: static/images/font-covers/wk-61.svg
+            link: /static/images/font-covers/wk-61.svg
             color: "#E54847"
 
 author:
     name: Maciej Połczyński
-    photo: static/images/authors/mp.jpg
+    photo: /static/images/authors/mp.jpg
     desc: Absolwent wydziału Sztuki Nowych Mediów w Polsko-Japońskiej Akademii Technik Komputerowych w Warszawie. Zajmuję się projektowanie krojów pisma, brandingiem i animacją. Stypendysta Type Directors Club.
     links:
         -

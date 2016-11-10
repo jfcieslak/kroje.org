@@ -12,20 +12,20 @@ font:
             font: Zaklad-Regular
     covers:
         -
-            link: static/images/font-covers/wk-42.svg
+            link: /static/images/font-covers/wk-42.svg
             color: "#E2E8E9"
         -
-            link: static/images/font-covers/wk-42.svg
+            link: /static/images/font-covers/wk-42.svg
             color: "#E2E8E9"
         -
-            link: static/images/font-covers/wk-43.svg
+            link: /static/images/font-covers/wk-43.svg
             color: "#E2E8E9"
         -
-            link: static/images/font-covers/wk-44.svg
+            link: /static/images/font-covers/wk-44.svg
             color: "#E2E8E9"
 author:
     name: Szymon Sznajder
-    photo: static/images/authors/ss.jpg
+    photo: /static/images/authors/ss.jpg
     desc: Ukończył Uniwersytet Artystyczny w Poznaniu broniąc dyplomy licencjacki i magisterski z projektowania krojów pism. Laureat licznych wyróżnień i nagród. Między innymi obydwa dyplomy zostały zakwalifikowane do Przeglądu Projektów Dyplomowych Graduation Projects, a za dyplom magisterski został laureatem stypendium im. Marii Dokowicz. Obecnie aktywnie projektuje liczne zlecenia komercyjne oraz wykłada na Uniwersytecie Artystycznym w Poznaniu.
     links:
         -

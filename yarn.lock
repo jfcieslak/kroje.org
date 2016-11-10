@@ -5960,6 +5960,10 @@ smart-buffer@^1.0.4:
   version "1.0.11"
   resolved "https://registry.yarnpkg.com/smart-buffer/-/smart-buffer-1.0.11.tgz#3050337098a8e4cdf0350fef63dd146049ff940a"
 
+smoothscroll-polyfill:
+  version "0.3.4"
+  resolved "https://registry.yarnpkg.com/smoothscroll-polyfill/-/smoothscroll-polyfill-0.3.4.tgz#6f59459788b6b8a7e21d223ef674151d1e3ddefd"
+
 snake-case@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/snake-case/-/snake-case-2.1.0.tgz#41bdb1b73f30ec66a04d4e2cad1b76387d4d6d9f"

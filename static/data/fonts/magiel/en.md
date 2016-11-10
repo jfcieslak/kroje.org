@@ -4,7 +4,7 @@ font:
     name: Magiel
     download: static/wk-fonts/Magiel.zip
     sets: CE, WE, SE
-    desc: „Magiel” to geometryczny display’owy krój pisma inspirowany amatorskim napisami z czasów PRL-u. Projekty liter zawierają w sobie różnorodne „błędy” pochodzące z szyldów, tabliczek i plakatów, które powstały w okresie 1945-1989 w Warszawie.
+    desc: „Magiel” is a geometrical display font, inspired by amateur signage lettering from the communist period. Letters contain some characteristic “defects” and “mistakes” that could be found in signs, tablets and posters from the 1945–1989 period.
 
     styles:
         -
@@ -12,21 +12,21 @@ font:
             font: Magiel-Black
     covers:
         -
-            link: static/images/font-covers/wk-64.svg
+            link: /static/images/font-covers/wk-64.svg
             color: "#522D84"
         -
-            link: static/images/font-covers/wk-63.svg
+            link: /static/images/font-covers/wk-63.svg
             color: "#522D84"
         -
-            link: static/images/font-covers/wk-62.svg
+            link: /static/images/font-covers/wk-62.svg
             color: "#522D84"
         -
-            link: static/images/font-covers/wk-65.svg
+            link: /static/images/font-covers/wk-65.svg
             color: "#522D84"
 author:
     name: Mateusz Machalski
-    photo: static/images/authors/mm.jpg
-    desc: Absolwent Wydziału Grafiki Akademi Sztuk Pięknych w Warszawie. Zajmuje się projektowaniem identyfikacji wizualnych oraz krojów pism. Autor m.in. identyfikacji wizualnej Nagrody Solidarności im. Lecha Wałęsy oraz projektu rodziny 42 odmian krojów pism dla korporacji Tupperware. Dyrektor artystyczny magazynu „Warsawholic”.
+    photo: /static/images/authors/mm.jpg
+    desc: Graduated from the Graphic Design Dept. on Warsaw Academy of Fine Arts. Specializes in corporate identity and type design. Designer of the visual identity of the Lech Wałęsa Solidarity Award and the family of 42 fonts for the Tupperware corporation. Art director of “Warsawholic” magazine.
 
     links:
         -
