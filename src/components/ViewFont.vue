@@ -34,7 +34,7 @@
 				h4.section-title — {{labels[lang].tester}}:
 				font-tester(:font="pageData.font.name", :styles="pageData.font.styles")
 		section.download
-			a.button.download-font.disabled(:title="pageData.font.name" @click="alertDisabled") {{labels[lang].download}}
+			a.button.download-font(:title="pageData.font.name", :href="fontZipLink") {{labels[lang].download}}
 </template>
 
 <script>
@@ -85,6 +85,11 @@ export default {
 					links: [{title: '', link: ''}]
 				}
 			}
+		}
+	},
+	computed: {
+		fontZipLink() {
+			return `https://github.com/warszawskie-kroje/${this.pageData.font.slug}/archive/master.zip`
 		}
 	},
 	methods: {
