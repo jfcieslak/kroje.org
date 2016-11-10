@@ -31,6 +31,6 @@ author:
     desc: 'Projektantka graficzna specjalizująca się w identyfikacjach wizualnych oraz liternictwie i typografii. Absolwentka Wydziału Grafiki i Komunikacji Wizualnej na Uniwersytecie Artystycznym w Poznaniu. Pracuje w studio projektowym Mamastudio. Jest autorką identyfikacji m.in.: Festiwalu Dwa Brzegi, Festiwalu im. Zygmunta Haupta, Festiwalu FAMA, a także uczestniczką wystaw „Places of Origin: Polish Graphic Design in Context” w Reykjaviku, „Ogólnopolskiej Wystawy Znaków Graficznych” oraz „Typopolo”.'
     links:
         -
-            link: www.rogatty.com
+            link: http://www.rogatty.com
             title: Portfolio
 ---

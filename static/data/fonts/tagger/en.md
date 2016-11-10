@@ -33,6 +33,6 @@ author:
 
     links:
         -
-            link: www.rogatty.com
+            link: http://www.rogatty.com
             title: Portfolio
 ---
