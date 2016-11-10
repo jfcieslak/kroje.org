@@ -6,7 +6,7 @@
 	article.font-article
 		aside.article-sidebar
 			section.info
-				h4.section-title — {{pageData.font.name}}
+				h4.section-title {{pageData.font.name}}
 				.section-content
 					p.def {{labels[lang].styles}}
 					ul.styles-list
@@ -31,7 +31,7 @@
 				.section-content
 					p {{pageData.font.desc}}
 			section.tester
-				h4.section-title — {{labels[lang].tester}}:
+				h4.section-title {{labels[lang].tester}}:
 				font-tester(:font="pageData.font.name", :styles="pageData.font.styles")
 		section.download
 			a.button.download-font(:title="pageData.font.name", :href="fontZipLink") {{labels[lang].download}}

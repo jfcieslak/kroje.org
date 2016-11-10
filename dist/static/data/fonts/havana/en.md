@@ -4,7 +4,7 @@ font:
     name: Havana
     download: static/wk-fonts/Havana.zip
     sets: CE, WE
-    desc: Inspiracją dla kroju „Havana” były warszawskie neony epoki PRL-u. Projekt zwiera w sobie finezyjność, dbałość o szczegóły i spójność formy, jaką charakteryzowały projekty literniczne tamtego czasu. Poszczególne kształty liter zaczerpnięte są bezpośrednio z neonów, tak jak „K” i „m” z neonu „Kosmetyki” czy litera „t” z neonu „Mister”. Nazwa kroju pochodzi od nazwy nieistniejącej kawiarni „Havana” przy ul. Słowackiego.
+    desc: “Havana” font i inspired by Warsaw neon signs from before 1989. Just like the lettering of that period, the “Havava” design is detail oriented, coherent and sophisticated. Some letters are directly drawn from specific signs – letters “K” and “m” from “Kosmetyki” or letter “t”  from “Mister” sign. The font’s name itself refers to a former cafe “Havana” in Warsaw.
     styles:
         -
             name: Regular
@@ -22,7 +22,8 @@ font:
 author:
     name: Joanna Angulska
     photo: /static/images/authors/ja.jpg
-    desc: Absolwentka Wydziału Grafiki i Komunikacji Wizualnej na Uniwersytecie Artystycznym w Poznaniu. Zajmuję się projektowaniem logotypów, składem tekstu i szeroko pojętym brandingiem. Uczestniczka i wykładowczymi konferencji „Plaster” w Toruniu oraz „Typolub” w Lublinie.
+    desc: Graduated from the Graphic and Communication Design Dept. on Poznań Fine Arts University. Specializes in logo, layout and branding design. Participant and a speaker in “Plaster” and “Typolub” conferences.
+
     links:
         -
             link: https://www.behance.net/JoannaAngulska

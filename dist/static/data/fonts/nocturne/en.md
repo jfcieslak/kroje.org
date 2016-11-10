@@ -4,7 +4,7 @@ font:
     name: Nocturne
     download: static/wk-fonts/NocturneSerif.zip
     sets: CE, WE, SE, CY
-    desc: Font „Nocturn” to projekt inspirowany literami z kamiennych tablic upamiętniających ofiary II Wojny Światowej w Warszawie oraz hebrajskimi przedwojennymi szyldami. „Nocturn” to krój dziełowy, geometryczny w formie, kontrastowy w rysunku liter oraz modernistyczny w swoim charakterze.
+    desc: “Nocturne” font is inspired by the lettering on stone tablets commemorating the victims of World War II, and prewar Jewish shop signage. “Nocturne” is a text font that features clean geometrical shapes, high contrast and is modernist in character.
     styles:
         -
             name: Regular
@@ -22,7 +22,7 @@ font:
 author:
     name: Mateusz Machalski
     photo: /static/images/authors/mm.jpg
-    desc: Absolwent Wydziału Grafiki Akademi Sztuk Pięknych w Warszawie. Zajmuje się projektowaniem identyfikacji wizualnych oraz krojów pism. Autor m.in. identyfikacji wizualnej Nagrody Solidarności im. Lecha Wałęsy oraz projektu rodziny 42 odmian krojów pism dla korporacji Tupperware. Dyrektor artystyczny magazynu „Warsawholic”.
+    desc: Graduated from the Graphic Design Dept. on Warsaw Academy of Fine Arts. Specializes in corporate identity and type design. Designer of the visual identity of the Lech Wałęsa Solidarity Award and the family of 42 fonts for the Tupperware corporation. Art director of “Warsawholic” magazine.
 
     links:
         -

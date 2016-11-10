@@ -4,7 +4,7 @@ font:
     name: Apropal
     download: static/wk-fonts/Apropal.zip
     sets: CE, WE
-    desc: „Apropal” to słowo pochodzące z gwary warszawskiej, określa ono drobnego cwaniaczka. Krój „Apropal” powstał z inspiracji neonem księgarni „Czytelnik”, tablicami informacyjnymi z warszawskiego ZOO oraz wzornikami z książki „Techniki liternictwa” Jana Wojeńskiego. Projekt „Apropal” to bezszeryfowy font, przeznaczony do tworzenia ozdobnych szyldów, a także do zastosowania w układzie pionowym.
+    desc: In the old Warsaw’s urban slang, Apropal means a small time crook. This font is inspired by the “Czytelnik” bookstore, the information signs from Warsaw’s Zoo, and designs found in the “Lettering Techniques” book manual, by Jan Wojeński. “Apropal” is a sans-serif display font, ideal for decorative signs, also with a vertical text direction.
     styles:
         -
             name: Bold
@@ -28,7 +28,7 @@ font:
 author:
     name: Rafał Buchner
     photo: /static/images/authors/rb.jpg
-    desc: Absolwent Wydziału Grafiki Akademi Sztuk Pięknych w Warszawie. Zajmuje się projektowaniem krojów pism, m.in. dla „Tygodnika Powszechnego” i „Domu Spotkań z Historią”. Współpracował także z Fundacją Nowej Kultury „Bęc Zmiana”, Fundacją Polskiej Sztuki Nowoczesnej i miesięcznikiem „Znak”.
+    desc: Graduated from the Graphic Design Dept. on Warsaw Academy of Fine Arts. Type designer for “Tygodnik Powszechny” weekly magazine, “History Meeting House” and others. Cooperated with „Bęc Zmiana” Cultural Foundation, Polish Modern Art Foundation, and “Znak” monthly magazine.
     links:
         -
             link: https://www.instagram.com/gugutthemonster/

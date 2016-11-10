@@ -4,7 +4,7 @@ font:
     name: Olympic
     download: static/wk-fonts/Olympic.zip
     sets: CE, WE, SE
-    desc: „Olympic” to elegancki krój do zastosowań display’owych. Projekt był inspirowany warszawskimi szyldami oraz stołeczną typografią lat 70-tych. Font, mimo uniwersalności i nowoczesności, zwiera w swojej formie rodzaj nostalgii za dawną Warszawą.
+    desc: „Olympic” is an elegant display font. The design is inspired by Warsaw’s signage and typography from the 70’s. This font is modern and universal, but with a dash nostalgia for the Warsaw’s style of the past.
 
     styles:
         -
@@ -23,7 +23,7 @@ font:
 author:
     name: Ludka Niezgoda
     photo: /static/images/authors/ln.jpg
-    desc: Studentka Akademii Sztuk Pięknych w Warszawie. Stypendystka Krajowego Funduszu na rzecz Dzieci. Zajmuje się głównie typografią i projektowaniem krojów pism.
+    desc: Student of the Graphic Design Dept. on Warsaw Academy of Fine Arts.  Scholar of the National Children’s Fund. She is a lettering and type designer.
     links:
         -
             link: https://www.behance.net/nieludka
