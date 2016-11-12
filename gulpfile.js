@@ -12,9 +12,9 @@ gulp.task('data', function() {
 		}
 	}))
 	.pipe(data(function(file) {
-		var dataObject, parsedObject
-		dataObject = fm(fs.readFileSync(file.path, 'utf8'))
-		file.contents = new Buffer(JSON.stringify(dataObject), 'utf8')
+		var fmData = fm(fs.readFileSync(file.path, 'utf8'))
+		var jsonObject = {attributes: fmData.attributes, body: fmData.body}
+		file.contents = new Buffer(JSON.stringify(jsonObject), 'utf8')
 		return file.path = file.path.replace('.md', '.json')
 	}))
 	.pipe(gulp.dest('./static/data/'))

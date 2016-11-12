@@ -44,7 +44,8 @@ export default {
 	name: 'font-page',
 	components: {FontTester},
 	props: {
-		lang: String
+		lang: String,
+		siteTitle: String
 	},
 	data() {
 		return {
@@ -92,6 +93,29 @@ export default {
 			return `https://github.com/warszawskie-kroje/${this.pageData.font.slug}/archive/master.zip`
 		}
 	},
+	head: {
+		title() {
+			return {
+				inner: this.siteTitle, complement: this.pageData.font.name
+			}
+		},
+		meta() {
+			return [
+				{name: 'description', content: this.pageData.font.desc.substring(0, 150)},
+				// schema.org
+				{itemprop: 'name', content: this.siteTitle},
+				{itemprop: 'description', content: this.pageData.font.desc.substring(0, 150)},
+				{itemprop: 'image', content: `http://kroje.org/static/images/covers/wk-cover@og.jpg`},
+				// facebook
+				{property: 'fb:app_id', content: '1827279940840195'},
+				{property: 'og:url', content: `http://kroje.org/#${this.$route.fullPath}`},
+				{property: 'og:title', content: this.siteTitle},
+				{property: 'og:image', content: `http://kroje.org/static/images/covers/wk-cover@og.jpg`},
+				{property: 'og:description', content: this.pageData.font.desc},
+				{property: 'og:site_name', content: this.siteTitle}
+			]
+		}
+	},
 	methods: {
 		getPageData() {
 			let font = this.$route.params.font
@@ -101,14 +125,20 @@ export default {
 				res => {
 					this.pageData = res.body.attributes
 					this.body = res.body.body
-				}
-			).bind(this)
+					this.$emit('updateHead')
+				},
+				err => console.log(err)
+			)
+			.then(
+				res => document.dispatchEvent(new window.Event('render-ready'))
+			)
+			.bind(this)
 		},
 		coverStyle(color) {
 			return { backgroundColor: color }
 		},
 		slideStyle(link) {
-			return { backgroundImage: `url('${link}')` }
+			return { backgroundImage: `url('http://kroje.org${link}')` }
 		},
 		alertDisabled() {
 			window.alert('Wszystkie fonty będą udostępnione 10 listopada 2016')
@@ -117,6 +147,7 @@ export default {
 	watch: {
 		$route() {
 			this.getPageData()
+			this.$emit('updateHead')
 		}
 	},
 	created() {

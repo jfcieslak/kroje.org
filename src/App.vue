@@ -6,7 +6,7 @@
 			:langs="siteData.langs",
 			:items="siteData.mainMenu[lang]",
 			:siteTitle="siteData.siteTitle[lang]")
-	router-view(:lang="lang")
+	router-view(:lang="lang", :siteTitle="siteData.siteTitle[lang].main")
 	page-footer(
 		:texts="siteData.footer.texts[lang]",
 		:social="siteData.footer.social",
@@ -29,7 +29,10 @@ export default {
 			siteData: {
 				langs: {},
 				mainMenu: {},
-				siteTitle: {main: '', sub: ''},
+				siteTitle: {
+					pl: {main: 'Warszawskie Kroje', sub: 'Nowe kroje dla Warszawy'},
+					en: {main: 'Warsaw Types', sub: 'New Types for Warsaw'}
+				},
 				footer: {
 					texts: {},
 					social: [],
@@ -54,6 +57,7 @@ export default {
 		$route(next, curr) {
 			this.lang = next.params.lang || 'pl'
 			window.scroll({ top: 0, behavior: 'smooth' })
+			this.$emit('updateHead')
 		}
 	},
 	created() {

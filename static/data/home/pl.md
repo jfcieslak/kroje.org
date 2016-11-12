@@ -88,7 +88,7 @@ more:
         text: Wesprzyj Warszawskie Kroje i spraw sobie ręcznie produkowane typograficzne gadżety z limitowanej serii.
 ---
 Warszawskie Kroje to
-__12 nowych krojów pism__
+** 12 nowych krojów pism **
 stworzonych specjalnie dla Warszawy, w oparciu o lokalne tradycje typograficzne.
 
 Wszystkie fonty dostępne są za darmo.

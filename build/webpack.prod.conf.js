@@ -8,6 +8,7 @@ var ExtractTextPlugin = require('extract-text-webpack-plugin')
 var HtmlWebpackPlugin = require('html-webpack-plugin')
 
 var CopyWebpackPlugin = require('copy-webpack-plugin')
+var PrerenderSpaPlugin = require('prerender-spa-plugin')
 
 var env = process.env.NODE_ENV === 'testing'
 ? require('../config/test.env')
@@ -81,11 +82,57 @@ var webpackConfig = merge(baseWebpackConfig, {
 			name: 'manifest',
 			chunks: ['vendor']
 		}),
-		
+
 		new CopyWebpackPlugin([
 			{from: 'CNAME'},
 			{from: 'google*'}
-		])
+		]),
+
+		new PrerenderSpaPlugin(
+			// (REQUIRED) Absolute path to static root
+			path.join(__dirname, '../dist'),
+			// (REQUIRED) List of routes to prerender
+			[
+				'/',
+				'/pl',
+				'/en',
+				'/en/about',
+				'/pl/about',
+				'/en/resources',
+				'/pl/resources',
+				'/en/fonts/apropal',
+				'/en/fonts/bajaderka',
+				'/en/fonts/cyrulik',
+				'/en/fonts/havana',
+				'/en/fonts/lombard',
+				'/en/fonts/magiel',
+				'/en/fonts/nocturne',
+				'/en/fonts/olympic',
+				'/en/fonts/praho',
+				'/en/fonts/rewir',
+				'/en/fonts/tagger',
+				'/en/fonts/zaklad',
+				'/pl/fonts/apropal',
+				'/pl/fonts/bajaderka',
+				'/pl/fonts/cyrulik',
+				'/pl/fonts/havana',
+				'/pl/fonts/lombard',
+				'/pl/fonts/magiel',
+				'/pl/fonts/nocturne',
+				'/pl/fonts/olympic',
+				'/pl/fonts/praho',
+				'/pl/fonts/rewir',
+				'/pl/fonts/tagger',
+				'/pl/fonts/zaklad'
+			],
+			// (OPTIONAL) Options
+			{
+				captureAfterDocumentEvent: 'render-ready',
+				phantomPageSettings: {
+					loadImages: false
+				}
+			}
+		)
 	]
 })
 

@@ -91,7 +91,7 @@ more:
             Support Warsaw Types and get yourself some fresh, handmade typographic products from limitted edition.
 ---
 Warsaw Types is a collection of
-**12 new font families**
+** 12 new font families **
 inspired by the Warsaw’s local typographic heritage. They are all available for free.
 
 Enjoy!

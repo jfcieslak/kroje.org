@@ -7,7 +7,7 @@ import ViewFont from './components/ViewFont'
 Vue.use(VueRouter)
 
 const router = new VueRouter({
-	// mode: 'history',
+	mode: 'history',
 	routes: [
 		{path: '/', redirect: '/pl'},
 		{path: '/:lang/', name: 'home', component: ViewHome},

@@ -40,10 +40,15 @@ export default {
 	name: 'home-view',
 	components: {IntroCard, FontList, Excerpts},
 	props: {
-		lang: String
+		lang: String,
+		siteTitle: String
 	},
 	data() {
 		return {
+			pageTitle: {
+				en: 'Home',
+				pl: 'Strona Główna'
+			},
 			pageData: {
 				intro: '',
 				fontlistTitle: '',
@@ -51,6 +56,34 @@ export default {
 				more: {}
 			},
 			body: ''
+		}
+	},
+	computed: {
+		pureBody() {
+			return this.md(this.body).replace(/<[^>]*>/g, '')
+		}
+	},
+	head: {
+		title() {
+			return {
+				inner: this.siteTitle, complement: this.pageTitle[this.lang]
+			}
+		},
+		meta() {
+			return [
+				{name: 'description', content: this.pureBody.substring(0, 150)},
+				// schema.org
+				{itemprop: 'name', content: this.siteTitle},
+				{itemprop: 'description', content: this.pureBody.substring(0, 150)},
+				{itemprop: 'image', content: `http://kroje.org/static/images/covers/wk-cover@og.jpg`},
+				// facebook
+				{property: 'fb:app_id', content: '1827279940840195'},
+				{property: 'og:url', content: `http://kroje.org/#${this.$route.fullPath}`},
+				{property: 'og:title', content: this.siteTitle},
+				{property: 'og:image', content: `http://kroje.org/static/images/covers/wk-cover@og.jpg`},
+				{property: 'og:description', content: this.pureBody},
+				{property: 'og:site_name', content: this.siteTitle}
+			]
 		}
 	},
 	methods: {
@@ -63,13 +96,20 @@ export default {
 				res => {
 					this.pageData = res.body.attributes
 					this.body = res.body.body
-				}
-			).bind(this)
+					this.$emit('updateHead')
+				},
+				err => console.log(err)
+			)
+			.then(
+				res => document.dispatchEvent(new window.Event('render-ready'))
+			)
+			.bind(this)
 		}
 	},
 	watch: {
 		$route() {
 			this.getPageData()
+			this.$emit('updateHead')
 		}
 	},
 	created() {

@@ -1,21 +1,43 @@
 <template lang='jade'>
 	#view-about
-		.soon {{wip[lang]}}
+		.soon {{pageData.wip}}
 </template>
 
 <script>
 export default {
 	name: 'view-about',
 	props: {
-		lang: String
+		lang: String,
+		siteTitle: String
 	},
 	data() {
 		return {
-			wip: {
-				en: 'This page will be available very soon!',
-				pl: 'Ta strona będzie dostępna wkrótce!'
-			}
+			pageData: {
+				wip: ''
+			},
+			body: ''
 		}
+	},
+	methods: {
+		getPageData() {
+			this.$http.get(`/static/data/about/${this.lang}.json`)
+			.then(
+				res => {
+					this.pageData = res.body.attributes
+					this.body = res.body.body
+					this.$emit('updateHead')
+				}
+			)
+			.then(
+				res => {
+					document.dispatchEvent(new window.Event('render-ready'))
+				}
+			)
+			.bind(this)
+		}
+	},
+	created() {
+		this.getPageData()
 	}
 }
 </script>

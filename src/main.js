@@ -10,6 +10,9 @@ Vue.use(VueHead)
 Vue.use(VueResource)
 Vue.use(VueRouter)
 
+// Turn true before making builds
+Vue.config.silent = true
+
 new Vue({
 	router,
 	el: '#app',
