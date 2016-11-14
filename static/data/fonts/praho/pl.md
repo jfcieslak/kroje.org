@@ -12,14 +12,17 @@ font:
             font: Praho-Black
     covers:
         -
-            link: /static/images/font-covers/wk-52.svg
+            link: /static/images/font-covers/praho/1.svg
             color: "#B49D4F"
         -
-            link: /static/images/font-covers/wk-50.svg
-            color: "#B49D4F"
+            link: /static/images/font-covers/praho/2.svg
+            color: "#E2E8E9"
         -
-            link: /static/images/font-covers/wk-51.svg
-            color: "#B49D4F"
+            link: /static/images/font-covers/praho/3.svg
+            color: "#E2E8E9"
+        -
+            link: /static/images/font-covers/praho/4.svg
+            color: "#E2E8E9"
 author:
     name: Maciej Włoczewski
     photo: /static/images/authors/mw.jpg

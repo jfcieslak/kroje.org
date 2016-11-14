@@ -4,6 +4,9 @@ font:
     name: Tagger
     download: static/wk-fonts/Tagger.zip
     sets: CE, WE, SE
+    license:
+        link: http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL_web
+        name: SIL Open Font
     desc: “Tagger” is inspired by Warsaw’s graffiti tags. It’s a modern script font with a dynamic character and casual forms. Tagger is a perfect fit for visual identity of bars, restaurants, shops. It can also be used for menus, price tags, labels and announcements.
 
 
@@ -14,18 +17,20 @@ font:
             font: Tagger-Regular
     covers:
         -
-            link: /static/images/font-covers/wk-31.svg
+            link: /static/images/font-covers/tagger/1.svg
             color: "#474A58"
         -
-            link: /static/images/font-covers/wk-29.svg
+            link: /static/images/font-covers/tagger/2.svg
             color: "#474A58"
         -
-            link: /static/images/font-covers/wk-30.svg
+            link: /static/images/font-covers/tagger/3.svg
             color: "#474A58"
         -
-            link: /static/images/font-covers/wk-31.svg
-            color: "#474A58"
-
+            link: /static/images/font-covers/tagger/4.svg
+            color: "#E2E8E9"
+        -
+            link: /static/images/font-covers/tagger/5.svg
+            color: "#E2E8E9"
 author:
     name: Zuzanna Rogatty
     photo: /static/images/authors/zr.jpg

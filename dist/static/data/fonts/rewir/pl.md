@@ -12,13 +12,16 @@ font:
             font: Rewir-Light
     covers:
         -
-            link: /static/images/font-covers/wk-55.svg
+            link: /static/images/font-covers/rewir/1.svg
             color: "#E54847"
         -
-            link: /static/images/font-covers/wk-54.svg
+            link: /static/images/font-covers/rewir/2.svg
             color: "#E54847"
         -
-            link: /static/images/font-covers/wk-55.svg
+            link: /static/images/font-covers/rewir/3.svg
+            color: "#E54847"
+        -
+            link: /static/images/font-covers/rewir/4.svg
             color: "#E54847"
 author:
     name: Robert Jarzec

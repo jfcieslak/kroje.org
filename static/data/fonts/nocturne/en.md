@@ -11,13 +11,16 @@ font:
             font: NocturneSerif-Regular
     covers:
         -
-            link: /static/images/font-covers/wk-25.svg
+            link: /static/images/font-covers/nocturne/1.svg
             color: "#E2E8E9"
         -
-            link: /static/images/font-covers/wk-26.svg
+            link: /static/images/font-covers/nocturne/2.svg
             color: "#E2E8E9"
         -
-            link: /static/images/font-covers/wk-27.svg
+            link: /static/images/font-covers/nocturne/3.svg
+            color: "#E2E8E9"
+        -
+            link: /static/images/font-covers/nocturne/4.svg
             color: "#E2E8E9"
 author:
     name: Mateusz Machalski

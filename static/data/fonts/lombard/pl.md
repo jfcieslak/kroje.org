@@ -12,13 +12,13 @@ font:
             font: Lombard-Regular
     covers:
         -
-            link: /static/images/font-covers/wk-35.svg
+            link: /static/images/font-covers/lombard/1.svg
             color: "#FDEBE8"
         -
-            link: /static/images/font-covers/wk-36.svg
+            link: /static/images/font-covers/lombard/2.svg
             color: "#FDEBE8"
         -
-            link: /static/images/font-covers/wk-37.svg
+            link: /static/images/font-covers/lombard/3.svg
             color: "#FDEBE8"
 author:
     name: Ania Wieluńska

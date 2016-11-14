@@ -12,13 +12,16 @@ font:
             font: Olympic-Light
     covers:
         -
-            link: /static/images/font-covers/wk-38.svg
+            link: /static/images/font-covers/olympic/1.svg
             color: "#E2E8E9"
         -
-            link: /static/images/font-covers/wk-39.svg
+            link: /static/images/font-covers/olympic/2.svg
             color: "#E2E8E9"
         -
-            link: /static/images/font-covers/wk-40.svg
+            link: /static/images/font-covers/olympic/3.svg
+            color: "#E2E8E9"
+        -
+            link: /static/images/font-covers/olympic/4.svg
             color: "#E2E8E9"
 author:
     name: Ludka Niezgoda

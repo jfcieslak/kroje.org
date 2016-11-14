@@ -14,18 +14,20 @@ font:
             font: Tagger-Regular
     covers:
         -
-            link: /static/images/font-covers/wk-31.svg
+            link: /static/images/font-covers/tagger/1.svg
             color: "#474A58"
         -
-            link: /static/images/font-covers/wk-29.svg
+            link: /static/images/font-covers/tagger/2.svg
             color: "#474A58"
         -
-            link: /static/images/font-covers/wk-30.svg
+            link: /static/images/font-covers/tagger/3.svg
             color: "#474A58"
         -
-            link: /static/images/font-covers/wk-31.svg
-            color: "#474A58"
-
+            link: /static/images/font-covers/tagger/4.svg
+            color: "#E2E8E9"
+        -
+            link: /static/images/font-covers/tagger/5.svg
+            color: "#E2E8E9"
 author:
     name: Zuzanna Rogatty
     photo: /static/images/authors/zr.jpg

@@ -12,16 +12,16 @@ font:
             font: Zaklad-Regular
     covers:
         -
-            link: /static/images/font-covers/wk-42.svg
+            link: /static/images/font-covers/zaklad/1.svg
             color: "#E2E8E9"
         -
-            link: /static/images/font-covers/wk-42.svg
+            link: /static/images/font-covers/zaklad/2.svg
             color: "#E2E8E9"
         -
-            link: /static/images/font-covers/wk-43.svg
+            link: /static/images/font-covers/zaklad/3.svg
             color: "#E2E8E9"
         -
-            link: /static/images/font-covers/wk-44.svg
+            link: /static/images/font-covers/zaklad/4.svg
             color: "#E2E8E9"
 author:
     name: Szymon Sznajder

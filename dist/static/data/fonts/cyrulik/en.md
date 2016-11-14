@@ -20,14 +20,20 @@ font:
             font: Cyrulik-Stencil
     covers:
         -
-            link: /static/images/font-covers/wk-60.svg
+            link: /static/images/font-covers/cyrulik/1.svg
             color: "#E54847"
         -
-            link: /static/images/font-covers/wk-59.svg
+            link: /static/images/font-covers/cyrulik/2.svg
             color: "#E54847"
         -
-            link: /static/images/font-covers/wk-61.svg
+            link: /static/images/font-covers/cyrulik/3.svg
             color: "#E54847"
+        -
+            link: /static/images/font-covers/cyrulik/4.svg
+            color: "#E2E8E9"
+        -
+            link: /static/images/font-covers/cyrulik/5.svg
+            color: "#E2E8E9"
 
 author:
     name: Maciej Połczyński

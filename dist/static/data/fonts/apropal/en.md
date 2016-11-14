@@ -11,20 +11,17 @@ font:
             font: Apropal-Bold
     covers:
         -
-            link: /static/images/font-covers/wk-48.svg
+            link: /static/images/font-covers/apropal/1.svg
+            color: "#474A58"
+        -
+            link: /static/images/font-covers/apropal/2.svg
             color: "#F9E276"
         -
-            link: /static/images/font-covers/wk-45.svg
+            link: /static/images/font-covers/apropal/3.svg
             color: "#F9E276"
         -
-            link: /static/images/font-covers/wk-46.svg
-            color: "#F9E276"
-        -
-            link: /static/images/font-covers/wk-47.svg
-            color: "#F9E276"
-        -
-            link: /static/images/font-covers/wk-49.svg
-            color: "#F9E276"
+            link: /static/images/font-covers/apropal/4.svg
+            color: "#474A58"
 author:
     name: Rafał Buchner
     photo: /static/images/authors/rb.jpg

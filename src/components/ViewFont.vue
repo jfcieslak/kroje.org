@@ -13,6 +13,9 @@
 						li(v-for="style in pageData.font.styles") {{style.name}}
 					p.def {{labels[lang].sets}}
 					p {{pageData.font.sets}}
+					p.def {{labels[lang].license}}
+					p
+						a(:href="license.url", title="license.name") {{license.name}}
 			section.author
 				.section-content
 					.author-head
@@ -57,6 +60,7 @@ export default {
 					tester: 'wypróbuj',
 					sets: 'zestaw znaków:',
 					styles: 'dostępne odmiany:',
+					license: 'licencja:',
 					download: 'pobierz font'
 				},
 				en: {
@@ -65,9 +69,14 @@ export default {
 					desc: 'about',
 					tester: 'try it out',
 					sets: 'character set:',
+					license: 'licencja:',
 					styles: 'available style variations:',
 					download: 'download font'
 				}
+			},
+			license: {
+				name: 'SIL Open Font License',
+				url: 'http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL_web'
 			},
 			pageData: {
 				font: {
@@ -138,7 +147,7 @@ export default {
 			return { backgroundColor: color }
 		},
 		slideStyle(link) {
-			return { backgroundImage: `url('http://kroje.org${link}')` }
+			return { backgroundImage: `url('${window.location.origin + link}')` }
 		},
 		alertDisabled() {
 			window.alert('Wszystkie fonty będą udostępnione 10 listopada 2016')

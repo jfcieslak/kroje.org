@@ -11,14 +11,17 @@ font:
             font: Bajaderka-Regular
     covers:
         -
-            link: /static/images/font-covers/wk-58.svg
+            link: /static/images/font-covers/bajaderka/1.svg
             color: "#FDEBE8"
         -
-            link: /static/images/font-covers/wk-57.svg
+            link: /static/images/font-covers/bajaderka/2.svg
             color: "#FDEBE8"
         -
-            link: /static/images/font-covers/wk-56.svg
-            color: "#FDEBE8"
+            link: /static/images/font-covers/bajaderka/3.svg
+            color: "#522D84"
+        -
+            link: /static/images/font-covers/bajaderka/4.svg
+            color: "#522D84"
 author:
     name: Beata Kurek
     photo: /static/images/authors/bk.jpg

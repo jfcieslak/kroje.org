@@ -11,14 +11,14 @@ font:
             font: Havana-Regular
     covers:
         -
-            link: /static/images/font-covers/wk-33.svg
+            link: /static/images/font-covers/havana/1.svg
             color: "#474A58"
         -
-            link: /static/images/font-covers/wk-32.svg
+            link: /static/images/font-covers/havana/2.svg
             color: "#474A58"
         -
-            link: /static/images/font-covers/wk-34.svg
-            color: "#474A58"
+            link: /static/images/font-covers/havana/3.svg
+            color: "#FBE8E2"
 author:
     name: Joanna Angulska
     photo: /static/images/authors/ja.jpg

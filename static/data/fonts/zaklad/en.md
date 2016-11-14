@@ -4,6 +4,9 @@ font:
     name: Zakład
     download: static/wk-fonts/Zaklad.zip
     sets: CE, WE
+    license:
+        link: http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL_web
+        name: SIL Open Font
     desc: „Zakład” is a display font designed for use on signage and posters. Font’s massive and sturdy construction was inspired the blocky geometrical letters from the Warsaw’s craftsmen shops. Its form is characteristic and noticeable.
 
     styles:
@@ -12,16 +15,16 @@ font:
             font: Zaklad-Regular
     covers:
         -
-            link: /static/images/font-covers/wk-42.svg
+            link: /static/images/font-covers/zaklad/1.svg
             color: "#E2E8E9"
         -
-            link: /static/images/font-covers/wk-42.svg
+            link: /static/images/font-covers/zaklad/2.svg
             color: "#E2E8E9"
         -
-            link: /static/images/font-covers/wk-43.svg
+            link: /static/images/font-covers/zaklad/3.svg
             color: "#E2E8E9"
         -
-            link: /static/images/font-covers/wk-44.svg
+            link: /static/images/font-covers/zaklad/4.svg
             color: "#E2E8E9"
 author:
     name: Szymon Sznajder

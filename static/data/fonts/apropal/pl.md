@@ -4,6 +4,9 @@ font:
     name: Apropal
     download: static/wk-fonts/Apropal.zip
     sets: CE, WE
+    license:
+        link: http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL_web
+        name: SIL Open Font
     desc: „Apropal” to słowo pochodzące z gwary warszawskiej, określa ono drobnego cwaniaczka. Krój „Apropal” powstał z inspiracji neonem księgarni „Czytelnik”, tablicami informacyjnymi z warszawskiego ZOO oraz wzornikami z książki „Techniki liternictwa” Jana Wojeńskiego. Projekt „Apropal” to bezszeryfowy font, przeznaczony do tworzenia ozdobnych szyldów, a także do zastosowania w układzie pionowym.
     styles:
         -
@@ -11,20 +14,17 @@ font:
             font: Apropal-Bold
     covers:
         -
-            link: /static/images/font-covers/wk-48.svg
+            link: /static/images/font-covers/apropal/1.svg
+            color: "#474A58"
+        -
+            link: /static/images/font-covers/apropal/2.svg
             color: "#F9E276"
         -
-            link: /static/images/font-covers/wk-45.svg
+            link: /static/images/font-covers/apropal/3.svg
             color: "#F9E276"
         -
-            link: /static/images/font-covers/wk-46.svg
-            color: "#F9E276"
-        -
-            link: /static/images/font-covers/wk-47.svg
-            color: "#F9E276"
-        -
-            link: /static/images/font-covers/wk-49.svg
-            color: "#F9E276"
+            link: /static/images/font-covers/apropal/4.svg
+            color: "#474A58"
 author:
     name: Rafał Buchner
     photo: /static/images/authors/rb.jpg

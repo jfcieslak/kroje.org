@@ -4,6 +4,9 @@ font:
     name: Tagger
     download: static/wk-fonts/Tagger.zip
     sets: CE, WE, SE
+    license:
+        link: http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL_web
+        name: SIL Open Font
     desc: Inspiracją do powstania kroju „Tagger” są warszawskie tagi - nielegalne napisy, szybko pisane flamastrem. Krój „Tagger” to nowoczesna pisanka o dynamicznym charakterze i swobodnych kształtach. Projekt może mieć zastosowanie w identyfikacji wizualnej restauracji, barów i sklepów do tworzenia ogłoszeń, cenówek czy etykiet.
 
 
@@ -13,18 +16,20 @@ font:
             font: Tagger-Regular
     covers:
         -
-            link: /static/images/font-covers/wk-31.svg
+            link: /static/images/font-covers/tagger/1.svg
             color: "#474A58"
         -
-            link: /static/images/font-covers/wk-29.svg
+            link: /static/images/font-covers/tagger/2.svg
             color: "#474A58"
         -
-            link: /static/images/font-covers/wk-30.svg
+            link: /static/images/font-covers/tagger/3.svg
             color: "#474A58"
         -
-            link: /static/images/font-covers/wk-31.svg
-            color: "#474A58"
-
+            link: /static/images/font-covers/tagger/4.svg
+            color: "#E2E8E9"
+        -
+            link: /static/images/font-covers/tagger/5.svg
+            color: "#E2E8E9"
 author:
     name: Zuzanna Rogatty
     photo: /static/images/authors/zr.jpg

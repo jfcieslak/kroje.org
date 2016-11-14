@@ -12,17 +12,17 @@ font:
             font: Magiel-Black
     covers:
         -
-            link: /static/images/font-covers/wk-64.svg
+            link: /static/images/font-covers/magiel/1.svg
             color: "#522D84"
         -
-            link: /static/images/font-covers/wk-63.svg
+            link: /static/images/font-covers/magiel/2.svg
             color: "#522D84"
         -
-            link: /static/images/font-covers/wk-62.svg
-            color: "#522D84"
+            link: /static/images/font-covers/magiel/3.svg
+            color: "#FBE8E2"
         -
-            link: /static/images/font-covers/wk-65.svg
-            color: "#522D84"
+            link: /static/images/font-covers/magiel/4.svg
+            color: "#FBE8E2"
 author:
     name: Mateusz Machalski
     photo: /static/images/authors/mm.jpg
