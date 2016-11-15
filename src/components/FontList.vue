@@ -1,4 +1,4 @@
-<template lang='jade'>
+<template lang='pug'>
 	ul#font-list
 		li.font-list-item(v-for="item in items")
 			router-link.font-item(:to="getFontPageUrl(item.slug)", :title="item.name")
@@ -10,7 +10,6 @@
 					p.font-specs
 						span.font-styles {{item.styles}}
 						span.font-sets {{item.sets}}
-
 </template>
 
 <script>

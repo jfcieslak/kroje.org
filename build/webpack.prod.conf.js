@@ -85,7 +85,8 @@ var webpackConfig = merge(baseWebpackConfig, {
 
 		new CopyWebpackPlugin([
 			{from: 'CNAME'},
-			{from: 'google*'}
+			{from: 'google*'},
+			{from: 'sitemap.xml'}
 		]),
 
 		new PrerenderSpaPlugin(

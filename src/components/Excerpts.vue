@@ -1,11 +1,10 @@
-<template lang='jade'>
+<template lang='pug'>
 	#excerpts
 		.more-item(
 			v-for="(item, key) in items",
 			:class="[ {wip: item.wip}, $route.params.lang ]")
 			router-link.more-item-link(:to="item.wip ? '':getItemUrl(key)") {{item.title}}
 			p.more-item-text {{item.text}}
-
 </template>
 
 <script>

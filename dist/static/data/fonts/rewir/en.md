@@ -4,6 +4,9 @@ font:
     name: Rewir
     download: static/wk-fonts/Rewir.zip
     sets: CE, WE
+    license:
+        link: http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL_web
+        name: SIL Open Font
     desc: „Rewir” is a way-finding font. The letter shapes are inspired by a small sign found on the backyard of a tenement house in Warsaw. The project is a proposal for corporate font to be used on plates and signage on official city and state buildings. The font is very legible, also in the varying viewing conditions. It can be used for official plates, letterheads, public transit information, etc. The design combines the history of Warsaw’s lettering and the requirements of a modern city.
 
     styles:

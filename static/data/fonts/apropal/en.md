@@ -22,9 +22,6 @@ font:
         -
             link: /static/images/font-covers/apropal/3.svg
             color: "#F9E276"
-        -
-            link: /static/images/font-covers/apropal/4.svg
-            color: "#474A58"
 author:
     name: Rafał Buchner
     photo: /static/images/authors/rb.jpg

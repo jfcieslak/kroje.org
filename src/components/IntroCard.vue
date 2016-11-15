@@ -1,5 +1,5 @@
-<template lang='jade'>
-	#intro-card(v-html="msg")
+<template lang='pug'>
+	#intro-card(v-html="msg", :class="{in: isIn, out: isOut}", @click="goTo('#font-list')")
 </template>
 
 <script>
@@ -7,6 +7,34 @@ export default {
 	name: 'intro-card',
 	props: {
 		msg: String
+	},
+	data() {
+		return {
+			isIn: false,
+			isOut: false
+		}
+	},
+	methods: {
+		onScroll() {
+			if (this.$el.offsetTop - window.pageYOffset < 50) {
+				this.isOut = true
+				this.isIn = false
+			} else {
+				if (this.msg !== ''){
+					this.isOut = false
+					this.isIn = true
+				}
+			}
+		},
+		goTo(selector) {
+			document.querySelector(selector).scrollIntoView({behavior: 'smooth'})
+		}
+	},
+	watch: {
+		msg(content) {this.isIn = content !== ''}
+	},
+	mounted() {
+		window.addEventListener('scroll', this.onScroll)
 	}
 }
 </script>
@@ -14,6 +42,14 @@ export default {
 <style scoped lang='stylus'>
 @import '../styles/component'
 #intro-card
+	visibility: hidden
+	&.in
+		visibility: hidden
+		animation: slideInUp ease .5s .5s 1 forwards
+	&.out
+		visibility: hidden
+		animation: slideOutDown ease .5s 1 forwards
+	cursor: pointer
 	position: absolute
 	left: 0
 	right: 0

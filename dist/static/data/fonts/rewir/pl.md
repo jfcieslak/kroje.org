@@ -4,6 +4,9 @@ font:
     name: Rewir
     download: static/wk-fonts/Rewir.zip
     sets: CE, WE
+    license:
+        link: http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL_web
+        name: SIL Open Font
     desc: „Rewir” to krój zaprojektowany dla systemów informacji w przestrzeni miejskiej. Inspiracją do powstania projektu była tabliczka zachowana w podwórzu jednej z warszawskich kamienic. Z drugiej strony powodem powstania projektu jest brak systemowego rozwiązania dla oficjalnych tablic urzędowych w Warszawie. Krój charakteryzuje wysoka czytelność i rozpoznawalność słów, pod różnym kątem i w różnych warunkach oświetleniowych. Projekt może mieć szerokie zastosowanie, od tablic urzędowych, komunikację w środkach transportu publicznego, po oficjalne pisma urzędowe. Krój „Rewir”  łączy w sobie historię warszawskiego liternictwa ze wpółczesnymi potrzebami miasta.
 
     styles:

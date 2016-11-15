@@ -5,3 +5,25 @@
 		transform: rotate(0deg)
 	100%
 		transform: rotate(360deg)
+
+@keyframes slideInUp
+	0%
+		opacity: 0
+		visibility: visible
+		transform: translateY(10rem)
+	40%
+		transform: translateY(-1rem)
+	100%
+		transform: translateY(0)
+		opacity: 1
+		visibility: visible
+
+@keyframes slideOutDown
+	0%
+		transform: translateY(0)
+		opacity: 1
+		visibility: visible
+	100%
+		opacity: 0
+		visibility: visible
+		transform: translateY(-10rem)

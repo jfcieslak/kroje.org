@@ -14,7 +14,7 @@ mainMenu:
     pl:
         -
             title: Fonty
-            href: /pl/fonts
+            href: /pl#font-list
         -
             title: O projekcie
             href: /pl/about
@@ -27,7 +27,7 @@ mainMenu:
     en:
         -
             title: Fonts
-            href: /en/fonts
+            href: /en#font-list
         -
             title: About
             href: /en/about
@@ -57,7 +57,10 @@ footer:
             organizers: >
                 Projekt Warszawskie Kroje jest realizowany przez Stowarzyszenie Kulturotwórcze Miastodwa.</br>
                 Projekt jest współfinansowany przez miasto st. Warszawa</br>
-                © Stowarzyszenie Kulturotwórcze Miastodwa 2016
+                © Stowarzyszenie Kulturotwórcze Miastodwa 2016</br>
+                Wszystkie Fonty dostępne są na otwartej licencji:</br>
+                [SIL Open Font License](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL_web)
+
             partners: partnerzy
             media: patronat medialny
         en:
@@ -76,7 +79,8 @@ footer:
             organizers: >
                 Warsaw Types project is realised by Miastodwa Association.</br>
                 Project is cofunded by the city of Warsaw.</br>
-                © Stowarzyszenie Kulturotwórcze Miastodwa 2016
+                © Stowarzyszenie Kulturotwórcze Miastodwa 2016</br>
+                All fonts available on the [SIL Open Font License](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL_web)
             partners: partners
             media: media partners
     social:

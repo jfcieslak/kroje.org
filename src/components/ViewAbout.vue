@@ -1,4 +1,4 @@
-<template lang='jade'>
+<template lang='pug'>
 	#view-about
 		.soon {{pageData.wip}}
 </template>
@@ -42,7 +42,7 @@ export default {
 }
 </script>
 
-<style lang='stylus'>
+<style scoped lang='stylus'>
 @import '../styles/component'
 #view-about
 .soon

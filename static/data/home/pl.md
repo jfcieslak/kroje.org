@@ -74,6 +74,17 @@ fonts:
         styles: 1 styl
         sets: CE, WE
 
+linksTitle: "Znajdź nas"
+links:
+    fb:
+        name: facebook
+        href: https://www.facebook.com/warszawskiekroje/
+    gh:
+        name: github
+        href: https://github.com/warszawskie-kroje/
+    be:
+        name: behance
+        href: https://www.behance.net/polkolor
 moreTitle: więcej
 more:
     about:

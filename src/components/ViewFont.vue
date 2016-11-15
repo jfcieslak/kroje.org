@@ -1,8 +1,7 @@
 <template lang='pug'>
 #font-page
 	.font-cover
-		.cover-slide(:style="coverStyle(pageData.font.covers[0].color)")
-			.cover-slide-text(:style="slideStyle(pageData.font.covers[0].link)")
+		cover-slider(:covers="pageData.font.covers")
 	article.font-article
 		aside.article-sidebar
 			section.info
@@ -42,10 +41,11 @@
 
 <script>
 import FontTester from './FontTester'
+import CoverSlider from './CoverSlider'
 
 export default {
 	name: 'font-page',
-	components: {FontTester},
+	components: {CoverSlider, FontTester},
 	props: {
 		lang: String,
 		siteTitle: String
@@ -114,12 +114,15 @@ export default {
 				// schema.org
 				{itemprop: 'name', content: this.siteTitle},
 				{itemprop: 'description', content: this.pageData.font.desc.substring(0, 150)},
-				{itemprop: 'image', content: `http://kroje.org/static/images/covers/wk-cover@og.jpg`},
+				{itemprop: 'image', content: `http://kroje.org/static/images/font-covers/${this.pageData.font.name}.png`},
 				// facebook
 				{property: 'fb:app_id', content: '1827279940840195'},
-				{property: 'og:url', content: `http://kroje.org/#${this.$route.fullPath}`},
-				{property: 'og:title', content: this.siteTitle},
-				{property: 'og:image', content: `http://kroje.org/static/images/covers/wk-cover@og.jpg`},
+				{property: 'og:type', content: 'website'},
+				{property: 'og:url', content: `http://kroje.org${window.location.pathname}/`},
+				{property: 'og:title', content: `${this.siteTitle} – "${this.pageData.font.name}"`},
+				{property: 'og:image', content: `http://kroje.org/static/images/font-covers/${this.pageData.font.name}.png`},
+				{property: 'og:image:width', content: '2500'},
+				{property: 'og:image:height', content: '1313'},
 				{property: 'og:description', content: this.pageData.font.desc},
 				{property: 'og:site_name', content: this.siteTitle}
 			]
@@ -148,9 +151,6 @@ export default {
 		},
 		slideStyle(link) {
 			return { backgroundImage: `url('${window.location.origin + link}')` }
-		},
-		alertDisabled() {
-			window.alert('Wszystkie fonty będą udostępnione 10 listopada 2016')
 		}
 	},
 	watch: {
@@ -173,20 +173,6 @@ export default {
 .font-cover
 	display: block
 	width: 100%
-	.cover-slide
-		position: relative
-		width: 100%
-		height: 40vw
-		.cover-slide-text
-			position: absolute
-			top: 15%
-			left: 15%
-			height: 70%
-			width: 70%
-			background: no-repeat center center
-			background-size: contain
-
-
 
 .section-title
 	display: block
@@ -221,6 +207,8 @@ export default {
 			margin-bottom: 2rem
 			text-transform: uppercase
 			line-height: 1.6em
+		a:link
+			text-decoration: underline
 
 
 	section.author

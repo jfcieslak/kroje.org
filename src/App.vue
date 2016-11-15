@@ -1,4 +1,4 @@
-<template lang='jade'>
+<template lang='pug'>
 #app
 	#top-bar
 		top-menu(
@@ -62,6 +62,7 @@ export default {
 	},
 	created() {
 		this.getSiteData()
+		console.log(window.location)
 	}
 }
 </script>

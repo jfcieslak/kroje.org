@@ -25,6 +25,13 @@
 						srcset="/static/images/other/cover-about-1-780.jpg 1x, /static/images/other/cover-about-1-780@2.jpg 2x")
 					img(alt="Warszawskie Kroje"
 						src="/static/images/other/cover-about-1-1080.jpg")
+
+		section
+			.module#links
+				h4.module-header.no-border {{pageData.linksTitle}}
+				.link-icons
+					a.fb(:href="pageData.links.fb.href", :title="pageData.links.fb.name", target="_blank")
+					a.gh(:href="pageData.links.gh.href", :title="pageData.links.gh.name" target="_blank")
 </template>
 
 
@@ -53,6 +60,10 @@ export default {
 				intro: '',
 				fontlistTitle: '',
 				fonts: [],
+				links: {
+					fb: {name: '', href: ''},
+					gh: {name: '', href: ''}
+				},
 				more: {}
 			},
 			body: ''
@@ -78,9 +89,12 @@ export default {
 				{itemprop: 'image', content: `http://kroje.org/static/images/covers/wk-cover@og.jpg`},
 				// facebook
 				{property: 'fb:app_id', content: '1827279940840195'},
-				{property: 'og:url', content: `http://kroje.org/#${this.$route.fullPath}`},
+				{property: 'og:type', content: 'website'},
+				{property: 'og:url', content: `http://kroje.org${window.location.pathname}/`},
 				{property: 'og:title', content: this.siteTitle},
 				{property: 'og:image', content: `http://kroje.org/static/images/covers/wk-cover@og.jpg`},
+				{property: 'og:image:width', content: '1200'},
+				{property: 'og:image:height', content: '630'},
 				{property: 'og:description', content: this.pureBody},
 				{property: 'og:site_name', content: this.siteTitle}
 			]
@@ -142,7 +156,8 @@ export default {
 		font-family: $M2
 		text-transform: uppercase
 		letter-spacing: .07em
-
+		&.no-border
+			border: none
 	#front-cover
 		position: relative
 		width: 100%
@@ -179,7 +194,18 @@ export default {
 		picture
 			img
 				width: 100%
-
+	.link-icons
+		text-align: center
+		a
+			display: inline-block
+			size: 4rem
+			margin: 1rem
+			&.fb
+				background: center center no-repeat $img-fb
+				background-size: 100% auto
+			&.gh
+				background: center center no-repeat $img-gh
+				background-size: 100% auto
 	.intro-link
 		display: block
 		position: absolute

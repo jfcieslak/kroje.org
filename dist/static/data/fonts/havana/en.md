@@ -12,12 +12,15 @@ font:
     covers:
         -
             link: /static/images/font-covers/havana/1.svg
-            color: "#474A58"
+            color: "#FBE8E2"
         -
             link: /static/images/font-covers/havana/2.svg
             color: "#474A58"
         -
             link: /static/images/font-covers/havana/3.svg
+            color: "#474A58"
+        -
+            link: /static/images/font-covers/havana/4.svg
             color: "#FBE8E2"
 author:
     name: Joanna Angulska

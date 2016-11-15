@@ -4,6 +4,9 @@ font:
     name: Apropal
     download: static/wk-fonts/Apropal.zip
     sets: CE, WE
+    license:
+        link: http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL_web
+        name: SIL Open Font
     desc: In the old Warsaw’s urban slang, Apropal means a small time crook. This font is inspired by the “Czytelnik” bookstore, the information signs from Warsaw’s Zoo, and designs found in the “Lettering Techniques” book manual, by Jan Wojeński. “Apropal” is a sans-serif display font, ideal for decorative signs, also with a vertical text direction.
     styles:
         -
@@ -19,9 +22,6 @@ font:
         -
             link: /static/images/font-covers/apropal/3.svg
             color: "#F9E276"
-        -
-            link: /static/images/font-covers/apropal/4.svg
-            color: "#474A58"
 author:
     name: Rafał Buchner
     photo: /static/images/authors/rb.jpg

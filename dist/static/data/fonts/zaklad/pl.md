@@ -4,6 +4,9 @@ font:
     name: Zakład
     download: static/wk-fonts/Zaklad.zip
     sets: CE, WE
+    license:
+        link: http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL_web
+        name: SIL Open Font
     desc: „Zakład” to displayowy krój pisma zaprojektowany w taki sposób, aby sprawdzał się na szyldach, jak i plakatach opisujących różne wydarzenia kulturalne w Warszawie. Jego masywna konstrukcja oraz zdecydowany i odważny rysunek, inspirowany liternictwem z szyldów zakładów rzemieślniczych, sprawia że jest on w swej formie wizualnej charakterystyczny i zauważalny.
 
     styles:

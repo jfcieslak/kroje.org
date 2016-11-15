@@ -1,4 +1,4 @@
-<template lang='jade'>
+<template lang='pug'>
 	#page-footer
 		#footer-left
 			h2#contact-header {{texts.contact.header}}
@@ -18,7 +18,6 @@
 				.orgs-info
 					.footnote#orgs-note(v-html="md(texts.organizers)")
 					.footnote#copy-note(v-html="md(texts.copy)")
-
 </template>
 
 <script>
@@ -100,7 +99,7 @@ export default {
 </style>
 
 <style lang="stylus">
-	#contact-details
+	#contact-details, #organizers-row
 		font-size: .9rem
 		line-height: 1.6em
 		a:link

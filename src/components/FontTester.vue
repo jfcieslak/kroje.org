@@ -1,4 +1,4 @@
-<template lang='jade'>
+<template lang='pug'>
 	#font-tester
 		.settings
 			.settings-section.styles
@@ -59,7 +59,7 @@ export default {
 }
 </script>
 
-<style lang='stylus'>
+<style scoped lang='stylus'>
 @import '../styles/component'
 #font-tester
 	.settings
