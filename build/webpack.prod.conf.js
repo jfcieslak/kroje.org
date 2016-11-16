@@ -129,6 +129,8 @@ var webpackConfig = merge(baseWebpackConfig, {
 			// (OPTIONAL) Options
 			{
 				captureAfterDocumentEvent: 'render-ready',
+				// captureAfterTime: 5000,
+				maxAttempts: 2,
 				phantomPageSettings: {
 					loadImages: false
 				}

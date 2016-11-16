@@ -1,10 +1,7 @@
 {
- "name": "kroje.org",
- "version": "1.0.0",
- "description": "Warszawskie Kroje",
- "author": "Miastodwa",
- "private": true,
- "scripts": {
-   "postinstall": "npm install express"
- }
+  "name": "kroje.org",
+  "version": "1.0.0",
+  "description": "kroje.org dist",
+  "main": "index.js",
+  "license": "MIT"
 }

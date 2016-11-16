@@ -27,7 +27,7 @@ export default {
 			return { backgroundColor: color }
 		},
 		getSlideStyle(link) {
-			return { backgroundImage: `url('${window.location.origin + link}')` }
+			return { backgroundImage: `url('http://kroje.org/${link}')` }
 		},
 		slide(covers) {
 			let current = 0
