@@ -2,7 +2,7 @@
 font:
     slug: cyrulik
     name: Cyrulik
-    download: static/wk-fonts/Cyrulik.zip
+    version: v1.0
     sets: CE, WE, SE
     desc: “Cyrulik” is inspired by technical stencil lettering found on electrical and mechanical devices in Warsaw, and a prewar headline display font “Cyklop” used in a newspaper called “Cyrulik Warszawski”. The font design combines a strong and sturdy form with delicate and modern details, reflecting the contemporary character of Warsaw.
     styles:

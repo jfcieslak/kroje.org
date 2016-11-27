@@ -2,7 +2,7 @@
 font:
     slug: olympic
     name: Olympic
-    download: static/wk-fonts/Olympic.zip
+    version: v1.0
     sets: CE, WE, SE
     desc: „Olympic” to elegancki krój do zastosowań display’owych. Projekt był inspirowany warszawskimi szyldami oraz stołeczną typografią lat 70-tych. Font, mimo uniwersalności i nowoczesności, zwiera w swojej formie rodzaj nostalgii za dawną Warszawą.
 

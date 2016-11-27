@@ -2,7 +2,7 @@
 font:
     slug: bajaderka
     name: Bajaderka
-    download: static/wk-fonts/Bajaderka.zip
+    version: v1.0
     sets: CE, WE
     desc: “Bajaderka” font is inspired by lettering of the small signage tablets found  in Warsaw shops. The letters feature details typical for traditional calligraphy, with visible brush strokes, referring to the charming style of Warsaw’s sign painters.
     styles:

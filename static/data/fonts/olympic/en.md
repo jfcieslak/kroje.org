@@ -2,7 +2,7 @@
 font:
     slug: olympic
     name: Olympic
-    download: static/wk-fonts/Olympic.zip
+    version: v1.0
     sets: CE, WE, SE
     desc: „Olympic” is an elegant display font. The design is inspired by Warsaw’s signage and typography from the 70’s. This font is modern and universal, but with a dash nostalgia for the Warsaw’s style of the past.
 

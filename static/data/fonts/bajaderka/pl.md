@@ -2,7 +2,7 @@
 font:
     slug: bajaderka
     name: Bajaderka
-    download: static/wk-fonts/Bajaderka.zip
+    version: v1.0
     sets: CE, WE
     desc: Krój „Bajaderka” inspirowany jest typografią tabliczek warszawskich zakładów usługowych. Formy liter to połączenie kształtów pisma charakterystycznego dla tradycyjnej kaligrafii i narzędziowego detalu. Projekt zwiera w sobie urok odręcznego pisma literników i warszawskich szyldziarzy.
     styles:

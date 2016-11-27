@@ -2,7 +2,7 @@
 font:
     slug: magiel
     name: Magiel
-    download: static/wk-fonts/Magiel.zip
+    version: v1.0
     sets: CE, WE, SE
     desc: „Magiel” is a geometrical display font, inspired by amateur signage lettering from the communist period. Letters contain some characteristic “defects” and “mistakes” that could be found in signs, tablets and posters from the 1945–1989 period.
 

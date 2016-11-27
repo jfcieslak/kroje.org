@@ -2,7 +2,7 @@
 font:
     slug: havana
     name: Havana
-    download: static/wk-fonts/Havana.zip
+    version: v1.0
     sets: CE, WE
     desc: Inspiracją dla kroju „Havana” były warszawskie neony epoki PRL-u. Projekt zwiera w sobie finezyjność, dbałość o szczegóły i spójność formy, jaką charakteryzowały projekty literniczne tamtego czasu. Poszczególne kształty liter zaczerpnięte są bezpośrednio z neonów, tak jak „K” i „m” z neonu „Kosmetyki” czy litera „t” z neonu „Mister”. Nazwa kroju pochodzi od nazwy nieistniejącej kawiarni „Havana” przy ul. Słowackiego.
     styles:

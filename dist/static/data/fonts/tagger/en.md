@@ -2,7 +2,7 @@
 font:
     slug: tagger
     name: Tagger
-    download: static/wk-fonts/Tagger.zip
+    version: v1.0
     sets: CE, WE, SE
     license:
         link: http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL_web

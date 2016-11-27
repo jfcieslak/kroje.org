@@ -2,7 +2,7 @@
 font:
     slug: rewir
     name: Rewir
-    download: static/wk-fonts/Rewir.zip
+    version: v1.0
     sets: CE, WE
     license:
         link: http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL_web

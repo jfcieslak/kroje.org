@@ -2,7 +2,7 @@
 font:
     slug: cyrulik
     name: Cyrulik
-    download: static/wk-fonts/Cyrulik.zip
+    version: v1.0
     sets: CE, WE, SE
     desc: Inspiracją do powstania projektu był krój „Cyklop”, który był używany w przedwojennej gazecie „Cyrulik Warszawski”. Wersja „stencil” inspirowana jest technicznymi napisami występującymi na różnego rodzaju urządzeniach mechaniczno-elektrycznych w Warszawie. Krój „Cyrulik” łączący mocny i wyrazisty rysunek liter z delikatymi i nowoczesnymi detalami. Całość projektu ma oddawać współczesny klimat i charakter warszawskich ulic.
     styles:

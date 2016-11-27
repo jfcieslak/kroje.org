@@ -2,7 +2,7 @@
 font:
     slug: praho
     name: Praho
-    download: static/wk-fonts/Praho.zip
+    version: v1.0
     sets: CE, WE
     desc: Inspiracją dla kroju „Praho” były napisy o dużym kontraście i wąskiej formie występujące w Warszawie w czasach PRL-u. Projekt „Praho” przetwarza i odnawia charakterystyczne uliczne formy liter, tworząc zupełnie nowy i wpółczesny krój, który jednak posiada mocny lokalny charakter.
 

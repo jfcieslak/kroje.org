@@ -2,7 +2,7 @@
 font:
     slug: praho
     name: Praho
-    download: static/wk-fonts/Praho.zip
+    version: v1.0
     sets: CE, WE
     desc: “Praho” is inspired by large contrasts and narrow shapes, found in fonts used in Warsaw before 1989, specifically on older street and shop signage. The result is an original modern typeface with a strong local vibe.
 

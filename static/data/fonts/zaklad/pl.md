@@ -2,7 +2,7 @@
 font:
     slug: zaklad
     name: Zakład
-    download: static/wk-fonts/Zaklad.zip
+    version: v1.0
     sets: CE, WE
     license:
         link: http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL_web

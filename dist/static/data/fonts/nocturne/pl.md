@@ -2,7 +2,7 @@
 font:
     slug: nocturne
     name: Nocturne
-    download: static/wk-fonts/NocturneSerif.zip
+    version: v1.0
     sets: CE, WE, SE, CY
     desc: Font „Nocturn” to projekt inspirowany literami z kamiennych tablic upamiętniających ofiary II Wojny Światowej w Warszawie oraz hebrajskimi przedwojennymi szyldami. „Nocturn” to krój dziełowy, geometryczny w formie, kontrastowy w rysunku liter oraz modernistyczny w swoim charakterze.
     styles:

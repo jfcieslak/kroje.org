@@ -82,7 +82,7 @@ export default {
 				font: {
 					slug: '',
 					name: '',
-					download: '',
+					version: 'v1.0',
 					sets: '',
 					desc: '',
 					styles: [{name: '', link: ''}],
@@ -99,7 +99,9 @@ export default {
 	},
 	computed: {
 		fontZipLink() {
-			return `https://github.com/warszawskie-kroje/${this.pageData.font.slug}/archive/v1.0.zip`
+			let slug = this.pageData.font.slug
+			let version = this.pageData.font.version
+			return `https://github.com/warszawskie-kroje/${slug}/releases/download/${version}/${slug}.zip`
 		}
 	},
 	head: {

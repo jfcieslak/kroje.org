@@ -2,7 +2,7 @@
 font:
     slug: lombard
     name: Lombard
-    download: static/wk-fonts/Lombard.zip
+    version: v1.0
     sets: CE, WE
     desc: Krój „Lombard” to połączenie ekspresyjnej pisanki z warszawskich neonów z geometrycznymi napisami charakterystycznymi dla stołecznych rzemieślników. Bezpośrednią inspiracją dla powstania projektu był neon „Jubiler”. Po połaczeniu z blokowymi literami, pochodzącymi z ręcznie malowanych szyldów, powstał krój dekoracyjny i jednocześnie modułowy.
 

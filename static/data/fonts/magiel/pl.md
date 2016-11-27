@@ -2,7 +2,7 @@
 font:
     slug: magiel
     name: Magiel
-    download: static/wk-fonts/Magiel.zip
+    version: v1.0
     sets: CE, WE, SE
     desc: „Magiel” to geometryczny display’owy krój pisma inspirowany amatorskim napisami z czasów PRL-u. Projekty liter zawierają w sobie różnorodne „błędy” pochodzące z szyldów, tabliczek i plakatów, które powstały w okresie 1945-1989 w Warszawie.
 

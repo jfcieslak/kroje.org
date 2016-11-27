@@ -1,6 +1,8 @@
 import Vue from 'vue'
 import App from './App'
+
 import router from './router'
+
 import VueHead from 'vue-head'
 import VueRouter from 'vue-router'
 import VueResource from 'vue-resource'
@@ -17,7 +19,14 @@ new Vue({
 	router,
 	el: '#app',
 	template: '<App/>',
-	components: {
-		App
-	}
+	components: { App }
+})
+
+router.beforeEach( (to) => {
+	window.ga('send', {
+		hitType: 'pageview',
+		page: to.path,
+		location: window.location.origin + to.path,
+		title: to.name
+	})
 })
