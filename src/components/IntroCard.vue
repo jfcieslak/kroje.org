@@ -16,7 +16,7 @@ export default {
 	},
 	methods: {
 		onScroll() {
-			if (this.$el.offsetTop - window.pageYOffset < 50) {
+			if (window.pageYOffset > 50) {
 				this.isOut = true
 				this.isIn = false
 			} else {
