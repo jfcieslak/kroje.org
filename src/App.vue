@@ -51,31 +51,18 @@ export default {
 				res => { this.siteData = (res.body).attributes },
 				error => { console.log(error) }
 			).bind(this)
-		},
-		levelup(hash){
-			if ( hash !== '' ){
-				let element = document.querySelector(hash)
-				if ( element !== null ) {
-					element.scrollIntoView({behavior: 'smooth'})
-				}
-			} else {
-				window.scroll({ top: 0, behavior: 'smooth' })
-			}
 		}
 	},
 	watch: {
 		$route(next, curr) {
 			this.lang = next.params.lang || 'pl'
-			this.levelup(next.hash)
+			window.scroll({ top: 0, behavior: 'smooth' })
 			this.$emit('updateHead')
 		}
 	},
 	created() {
 		this.getSiteData()
-	},
-	mounted() {
-		console.log(window.location.hash)
-		// this.levelup(window.location.hash)
+		console.log(window.location)
 	}
 }
 </script>

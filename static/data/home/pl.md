@@ -17,7 +17,7 @@ fonts:
         slug: cyrulik
         name: Cyrulik
         author: Maciej Połczyński
-        styles: 4 style
+        styles: 3 style
         sets: CE, WE
     -
         slug: havana

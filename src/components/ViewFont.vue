@@ -99,7 +99,7 @@ export default {
 	},
 	computed: {
 		fontZipLink() {
-			return `https://github.com/warszawskie-kroje/${this.pageData.font.slug}/archive/v1.0.zip`
+			return `https://github.com/warszawskie-kroje/${this.pageData.font.slug}/archive/master.zip`
 		}
 	},
 	head: {
