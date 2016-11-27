@@ -21,12 +21,3 @@ new Vue({
 	template: '<App/>',
 	components: { App }
 })
-
-router.beforeEach( (to) => {
-	window.ga('send', {
-		hitType: 'pageview',
-		page: to.path,
-		location: window.location.origin + to.path,
-		title: to.name
-	})
-})

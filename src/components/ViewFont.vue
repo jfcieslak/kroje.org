@@ -36,7 +36,7 @@
 				h4.section-title {{labels[lang].tester}}:
 				font-tester(:font="pageData.font.name", :styles="pageData.font.styles")
 		section.download
-			a.button.download-font(:title="pageData.font.name", :href="fontZipLink") {{labels[lang].download}}
+			a.button.download-font(:title="pageData.font.name", :href="fontZipLink", @click="gaDownload()") {{labels[lang].download}}
 </template>
 
 <script>
@@ -131,6 +131,14 @@ export default {
 		}
 	},
 	methods: {
+		gaDownload() {
+			window.ga('send', {
+				hitType: 'event',
+				eventCategory: 'Font',
+				eventAction: 'download',
+				eventLabel: this.pageData.font.name
+			})
+		},
 		getPageData() {
 			let font = this.$route.params.font
 			let lang = this.lang
