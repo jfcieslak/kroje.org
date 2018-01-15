@@ -55,6 +55,11 @@ export default {
 	created() {
 		this.resetSettings()
 		this.resetText()
+	},
+	mounted() {
+		window.innerWidth <= 600
+		? this.settings.fontSize = '14pt'
+		: this.settings.fontSize = '24pt'
 	}
 }
 </script>
@@ -66,8 +71,11 @@ export default {
 		display: flex
 		flex-flow: row nowrap
 		justify-content: space-between
+		+below(600px, true)
+			flex-flow: row wrap
 		.settings-section
 			display: block
+			margin-bottom: 1rem
 			clearfix()
 		.setting-list
 			float: left

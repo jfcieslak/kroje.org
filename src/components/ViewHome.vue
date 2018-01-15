@@ -184,11 +184,13 @@ export default {
 		+below(780px, true, 'retina', 'landscape', true)
 			background-image: $img-cover-780x2, $img-cover-ph
 
-		+below(780px, true, 'retina', 'portrait', true)
+		+below(620px, true, null, null, true)
 			background-image: $img-cover-780vx2, $img-cover-ph
+			height: 60vh
 
 		+below(400px, true, null, null, true)
 			background-image: $img-cover-780v, $img-cover-ph
+			height: 70vh
 
 	#about-slides
 		picture

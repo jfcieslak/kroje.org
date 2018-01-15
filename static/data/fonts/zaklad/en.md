@@ -33,6 +33,6 @@ author:
 
     links:
         -
-            link: www.typolis.pl
+            link: "http://www.typolis.pl"
             title: Portfolio
 ---

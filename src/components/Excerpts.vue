@@ -22,11 +22,23 @@ export default {
 <style scoped lang='stylus'>
 @import '../styles/component'
 #excerpts
-	lost-center: 100% 0 flex
 	margin-top: 2rem
+	clearfix()
+	+above(600px, true)
+		lost-center: 100% 0 flex
+	+below(600px, true)
+		padding: 3rem 0
 	.more-item
-		lost-column: 1/3 3 $gutter flex
 		position: relative
+		clearfix()
+		+above(600px, true)
+			lost-column: 1/3 3 $gutter flex
+		+below(600px, true)
+			display: block
+			text-align: center
+			width: 100%
+			max-width: 260px
+			margin: 0 auto
 		&.wip:after
 			content: 'SOON!'
 			display: block
@@ -42,6 +54,10 @@ export default {
 			text-align: center
 			padding: 2.5rem 0
 			transform: rotate(-25deg)
+			+below(600px)
+				left: 4rem
+				right: 0
+				margin: 0 auto
 		&.wip.en:after
 			content: 'SOON!'
 		&.wip.pl:after
@@ -55,10 +71,18 @@ export default {
 			text-decoration: underline
 			&:hover
 				color: blue
+			+below(780px)
+				width: 100%
+			+below(600px)
+				padding: 0
 		.more-item-text
 			width: 55%
 			float: left
 			font-size: 1rem
 			line-height: 1.7em
-
+			+below(780px)
+				width: 80%
+				margin-top: 1.6rem
+			+below(600px)
+				width: 100%
 </style>

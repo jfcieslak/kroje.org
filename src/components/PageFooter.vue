@@ -4,15 +4,15 @@
 			h2#contact-header {{texts.contact.header}}
 			#contact-details(v-html="md(texts.contact.text)")
 		#footer-right
-			#partners-row
+			.partners-row
 				h4.partners-label {{texts.partners}}:
 				a.partner(v-for="item in partners", :title="item.name", :href="item.link")
 					img(:src="item.logo")
-			#media-row
+			.media-row
 				h4.partners-label {{texts.media}}:
 				a.partner(v-for="item in media", :title="item.name", :href="item.link")
 					img(:src="item.logo", :alt="item.name")
-			#organizers-row
+			.organizers-row
 				a.footer-logo(v-for="item in organizers", :title="item.name", :href="item.link")
 					img(:src="item.logo", :alt="item.name")
 				.orgs-info
@@ -22,7 +22,7 @@
 
 <script>
 import marked from 'marked'
-marked.setOptions({breaks: true})
+marked.setOptions( { breaks: true } )
 export default {
 	name: 'page-footer',
 	props: {
@@ -44,7 +44,7 @@ export default {
 		organizers: Array
 	},
 	methods: {
-		md(content){ return marked(content) }
+		md(content){ return content ? marked(content) : '' }
 	}
 }
 </script>
@@ -58,7 +58,12 @@ export default {
 	border-bottom: 10px solid black
 	border-top: 1px solid rgba(black, .3)
 #footer-left
-	lost-column: 1/3 3 $gutter flex
+	+above(600px, true)
+		lost-column: 1/3 3 $gutter flex
+	+below(600px, true)
+		display: block
+		width: 100%
+		text-align: center
 	#contact-header
 		font-size: 1rem
 		font-weight: 700
@@ -67,34 +72,68 @@ export default {
 		letter-spacing: 0.07em
 		margin-bottom: 2rem
 #footer-right
-	lost-column: 2/3 3 $gutter flex
-	#partners-row, #media-row
+	+above(600px, true)
+		lost-column: 2/3 3 $gutter flex
+	+below(600px, true)
+		display: block
+		width: 100%
+	.partners-row, .media-row
 		display: flex
 		width: 100%
 		flex-flow: row nowrap
 		align-items: center
 		margin-bottom: 3rem
+		+below(780px, true)
+			flex-flow: row wrap
+		+below(600px, true)
+			justify-content: center
+			margin-top: 3rem
+			border-top: 1px solid black
+			padding-top: 2rem
 	.partners-label
-		lost-column: 1.5/12 12 $gutter flex
 		font-weight: 200
 		font-size: .8rem
 		text-transform: uppercase
 		line-height: 1.2em
 		letter-spacing: .02em
+		+above(780px, true)
+			lost-column: 1.5/12 12 $gutter flex
+		+below(780px, true)
+			width: 100%
+			margin-bottom: 2rem
+		+below(600px, true)
+			text-align: center
+			margin-bottom: 1rem
 	.partner
 		display: block
 		margin-right: 3rem
-	#organizers-row
+		+below(780px, true)
+			margin-right: 2rem
+			margin-bottom: 1rem
+			img
+				max-height: 2rem
+				max-width: 5rem
+		+below(600px, true)
+			margin: .5rem .8rem
+	.organizers-row
 		display: flex
 		margin-top: 4rem
 	.footer-logo
-		lost-column: 1.5/12 2 $gutter flex
+		+above(780px, true)
+			lost-column: 1.5/12 2 $gutter flex
+		+below(780px, true)
+			width: auto
+			min-width: 3rem
+			margin-right: $gutter
 		img
-			max-width: 4rem
+			max-width: 3rem
 	.orgs-info
-		lost-column: 6/12 3 $gutter flex
 		font-size: .9rem
 		line-height: 1.6em
+		+above(780px, true)
+			lost-column: 6/12 3 $gutter flex
+		+below(780px, true)
+			width: auto
 
 </style>
 

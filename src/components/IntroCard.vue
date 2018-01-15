@@ -64,10 +64,11 @@ export default {
 	color: blue
 	border: 4px solid blue
 	box-shadow: 0 0 10px 0 rgba(blue, .7)
+	+below(620px, true, null, null, true)
+		top: 20vw
 </style>
 
 <style lang='stylus'>
-// This is stupid, but we have to use unscoped style for v-html (unescaped html)
 @import '../styles/component'
 #intro-card
 	p

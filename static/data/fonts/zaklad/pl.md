@@ -32,6 +32,6 @@ author:
     desc: Ukończył Uniwersytet Artystyczny w Poznaniu broniąc dyplomy licencjacki i magisterski z projektowania krojów pism. Laureat licznych wyróżnień i nagród. Między innymi obydwa dyplomy zostały zakwalifikowane do Przeglądu Projektów Dyplomowych Graduation Projects, a za dyplom magisterski został laureatem stypendium im. Marii Dokowicz. Obecnie aktywnie projektuje liczne zlecenia komercyjne oraz wykłada na Uniwersytecie Artystycznym w Poznaniu.
     links:
         -
-            link: www.typolis.pl
+            link: "http://www.typolis.pl"
             title: Portfolio
 ---

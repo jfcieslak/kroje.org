@@ -74,7 +74,7 @@ fonts:
         styles: 1 style
         sets: CE, WE
 
-linksTitle: "Find us"
+linksTitle: "Find us on:"
 links:
     fb:
         name: facebook

@@ -1,12 +1,13 @@
 <template lang='pug'>
 #app
-	#top-bar
-		top-menu(
-			:lang="lang",
-			:langs="siteData.langs",
-			:items="siteData.mainMenu[lang]",
-			:siteTitle="siteData.siteTitle[lang]")
-	router-view(:lang="lang", :siteTitle="siteData.siteTitle[lang].main")
+	top-menu(
+		:lang="lang",
+		:langs="siteData.langs",
+		:items="siteData.mainMenu[lang]",
+		:siteTitle="siteData.siteTitle[lang]")
+	router-view.page-view(
+		:lang="lang",
+		:siteTitle="siteData.siteTitle[lang].main")
 	page-footer(
 		:texts="siteData.footer.texts[lang]",
 		:social="siteData.footer.social",
@@ -83,11 +84,4 @@ export default {
 
 <style lang='stylus'>
 @import '/styles/global'
-#top-bar
-	position: fixed
-	top: 0
-	z-index: 9
-	width: 100%
-	background-color: white
-	padding: 1rem 2rem
 </style>

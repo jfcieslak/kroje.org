@@ -12,6 +12,7 @@ var cssSourceMapDev = (env === 'development' && config.dev.cssSourceMap)
 var cssSourceMapProd = (env === 'production' && config.build.productionSourceMap)
 var useCssSourceMap = cssSourceMapDev || cssSourceMapProd
 
+
 module.exports = {
 	entry: {
 		app: './src/main.js'
@@ -90,7 +91,7 @@ module.exports = {
 		formatter: require('eslint-friendly-formatter')
 	},
 	vue: {
-		loaders: utils.cssLoaders({ sourceMap: useCssSourceMap }),
+		loaders: utils.cssLoaders({ sourceMap: true }),
 		postcss: [
 			require('autoprefixer')({
 				browsers: ['last 2 versions']

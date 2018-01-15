@@ -74,7 +74,7 @@ fonts:
         styles: 1 styl
         sets: CE, WE
 
-linksTitle: "Znajdź nas"
+linksTitle: "Znajdź nas na:"
 links:
     fb:
         name: facebook
@@ -96,7 +96,7 @@ more:
     store:
         wip: true
         title: Sklep
-        text: Wesprzyj Warszawskie Kroje i spraw sobie ręcznie produkowane typograficzne gadżety z limitowanej serii.
+        text: Wesprzyj Warszawskie Kroje i kup ręcznie produkowane typograficzne gadżety z limitowanej serii.
 ---
 Warszawskie Kroje to
 ** 12 nowych krojów pism **

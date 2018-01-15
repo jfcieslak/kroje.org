@@ -3,45 +3,49 @@
 	.font-cover
 		cover-slider(:covers="pageData.font.covers")
 	article.font-article
-		aside.article-sidebar
-			section.info
-				h4.section-title {{pageData.font.name}}
-				.section-content
-					p.def {{labels[lang].styles}}
-					ul.styles-list
-						li(v-for="style in pageData.font.styles") {{style.name}}
-					p.def {{labels[lang].sets}}
-					p {{pageData.font.sets}}
-					p.def {{labels[lang].license}}
-					p
-						a(:href="license.url", title="license.name") {{license.name}}
-			section.author
-				.section-content
-					.author-head
-						.author-img
-							img(:src="pageData.author.photo")
-						h4.section-title.author-name
-							| {{labels[lang].author}} —
-							br
-							| {{pageData.author.name}}
-					p.author-desc {{pageData.author.desc}}
-					ul.author-links
-						li(v-for="link in pageData.author.links")
-							a(:href="link.link" title="link.title") {{link.title}}
-		.article-main
-			section.desc
-				.section-content
-					p {{pageData.font.desc}}
-			section.tester
-				h4.section-title {{labels[lang].tester}}:
-				font-tester(:font="pageData.font.name", :styles="pageData.font.styles")
+
+		section.info
+			h4.section-title {{pageData.font.name}}
+			.section-content
+				p.def {{labels[lang].styles}}
+				ul.styles-list
+					li(v-for="style in pageData.font.styles") {{style.name}}
+				p.def {{labels[lang].sets}}
+				p {{pageData.font.sets}}
+				p.def {{labels[lang].license}}
+				p
+					a(:href="license.url", title="license.name") {{license.name}}
+
+		section.desc
+			.section-content(:lang="lang")
+				p {{pageData.font.desc}}
+
+		section.author
+			.section-content
+				.author-head
+					.author-img
+						img(:src="pageData.author.photo")
+					h4.section-title.author-name
+						| {{labels[lang].author}} —
+						br
+						| {{pageData.author.name}}
+				p.author-desc(:lang="lang") {{pageData.author.desc}}
+				ul.author-links
+					li(v-for="link in pageData.author.links")
+						a(:href="link.link", :title="link.title") {{link.title}}
+
+		section.tester
+			font-tester(:font="pageData.font.name", :styles="pageData.font.styles")
+
 		section.download
-			a.button.download-font(:title="pageData.font.name", :href="fontZipLink", @click="gaDownload()") {{labels[lang].download}}
+			a.button.download-font(:title="pageData.font.name", :href="fontZipLink", @click="gaDownload()", download) {{labels[lang].download}}
 </template>
 
 <script>
 import FontTester from './FontTester'
 import CoverSlider from './CoverSlider'
+import marked from 'marked'
+marked.setOptions({breaks: true})
 
 export default {
 	name: 'font-page',
@@ -131,6 +135,8 @@ export default {
 		}
 	},
 	methods: {
+		md(content) { return content ? marked(content) : ''},
+
 		gaDownload() {
 			window.ga('send', {
 				hitType: 'event',
@@ -191,18 +197,19 @@ export default {
 	font-family: $M2
 	margin: 1rem 0
 .font-article
-	lost-center: 100% 0 flex
-	.article-sidebar
-		lost-column: 1/3 2 $gutter*2 flex
-		padding-left: $gutter
-		padding-top: 6rem
-	.article-main
-		lost-column: 2/3 2 $gutter*2 flex
-		padding-right: $gutter
-		padding-top: 6.5rem
-		margin-bottom: 5rem
+		lost-center: 100% 0 flex
 
 	section.info
+		+above(780px, true)
+			lost-column: 1/3 2 $gutter*2 flex
+		+below(780px, true)
+			width: 100%
+			text-align: center
+			padding: 0
+			margin-top: 2rem
+		order: 1
+		padding-left: $gutter
+		margin-top: 5.4rem
 		font-size: 1rem
 		line-height: 1.4rem
 		text-align: right
@@ -220,27 +227,68 @@ export default {
 		a:link
 			text-decoration: underline
 
+	section.desc
+		+above(780px, true)
+			lost-column: 2/3 2 $gutter*2 flex
+		+below(780px, true)
+			width: 100%
+			padding: 0 $gutter
+			margin-top: 2rem
+			margin-bottom: 4rem
+		order: 2
+		padding-right: $gutter
+		margin-top: 6rem
+		font-weight: 200
+		line-height: 1.9em
+		text-align: justify
+		.section-content
+			max-width: 56rem
+			hyphens: auto
+			+below(780px, true)
+				margin: 0 auto
 
 	section.author
 		font-size: 1rem
-		padding-right: 3rem
-		clearfix()
+		padding-left: $gutter
+		margin-top: 8rem
+		margin-bottom: 4rem
+		text-align: justify
+		+above(780px, true)
+			order: 3
+			lost-column: 1/3 2 $gutter*2 flex
+		+below(780px, true)
+			order: 4
+			max-width: 30rem
+			margin: 3rem auto
+			padding: 0 $gutter
+		.author-head
+			+below(780px, true)
+				text-align: center
 		.author-img
 			display: block
 			max-width: 6rem
 			margin-right: 2rem
 			border-radius: 50%
 			overflow: hidden
+			+below(780px, true)
+				margin: 0 auto
 		.author-desc
 			display: block
 			width: 100%
 			margin-top: 1rem
 			max-width: 20rem
 			line-height: 1.5
+			font-size: 1rem
+			hyphens: auto
+			+below(780px, true)
+				text-align-last: center
+				max-width: 100%
 		.author-links
 			display: block
 			width: 100%
 			float: left
+			+below(780px, true)
+				text-align: center
 		ul
 			margin: 0
 			padding: 0
@@ -254,22 +302,32 @@ export default {
 				color: white
 				background-color: blue
 
-	section.desc
-		font-weight: 200
-		line-height: 1.9em
-		max-width: 56rem
-
 	section.tester
-		width: 100%
-		max-width: 50rem
-		margin-top: 10rem
+		+above(780px, true)
+			lost-column: 2/3 2 $gutter*2 flex
+			order: 4
+		+below(780px, true)
+			order: 3
+			width: 100%
+			margin: 0 auto
+			padding: 2rem $gutter
+			border-top: 1px solid black
+			border-bottom: 1px solid black
+		padding-right: $gutter
+		margin-top: 8rem
 		#font-tester
+			max-width: 56rem
 			margin-top: 3rem
+			+below(780px, true)
+				margin: 3rem auto
 
 section.download
+	order: 5
 	padding: 3rem 0
 	width: 100%
 	background-color: rgba(black, .05)
+	+below(780px, true)
+		padding: 0
 	.download-font
 		display: block
 		width: 100%
@@ -282,6 +340,9 @@ section.download
 		letter-spacing: 0.025em
 		color: blue
 		border: 1px solid blue
+		+below(780px, true)
+			max-width: 100%
+			border: none
 		&:hover
 			color: white
 			background-color: blue

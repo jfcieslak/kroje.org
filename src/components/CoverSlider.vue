@@ -63,6 +63,8 @@ export default {
 	width: 100%
 	height: 40vw
 	transition: all .2s ease
+	+below(600px, true)
+		height: 80vw
 	.cover-slide-text
 		position: absolute
 		top: 15%
@@ -71,4 +73,9 @@ export default {
 		width: 70%
 		background: no-repeat center center
 		background-size: contain
+		+below(600px, true)
+			top: 10%
+			left: 5%
+			height: 80%
+			width: 90%
 </style>

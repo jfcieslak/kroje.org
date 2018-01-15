@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "marked": "^0.3.6",
+    "rho": "^0.3.0",
     "smoothscroll-polyfill": "^0.3.4",
     "textversionjs": "^1.0.2",
     "vue": "^2.0.1",

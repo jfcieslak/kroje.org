@@ -29,6 +29,6 @@ author:
 
     links:
         -
-            link: http://www.machalski.wtf
+            link: "http://www.machalski.wtf"
             title: Behance
 ---
