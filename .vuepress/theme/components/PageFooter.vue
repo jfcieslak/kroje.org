@@ -120,7 +120,7 @@ export default {
 			min-width: 3rem
 			margin-right: $gutter
 		img
-			max-width: 3rem
+			max-width: 4.5rem
 	.orgs-info
 		font-size: .9rem
 		line-height: 1.6em
