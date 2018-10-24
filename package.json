@@ -1,0 +1,17 @@
+{
+	"scripts": {
+		"dev": "vuepress dev",
+		"build": "vuepress build"
+	},
+	"dependencies": {
+		"rupture": "^0.7.1",
+		"smoothscroll-polyfill": "^0.4.3",
+		"vuepress": "^1.0.0-alpha.13"
+	},
+	"devDependencies": {
+		"lost": "^8.3.0",
+		"postcss-preset-env": "^6.2.0",
+		"pug": "^2.0.3",
+		"pug-plain-loader": "^1.0.0"
+	}
+}
