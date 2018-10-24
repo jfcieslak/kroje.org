@@ -41,9 +41,6 @@
 </template>
 
 <script>
-import smoothscroll from 'smoothscroll-polyfill'
-smoothscroll.polyfill()
-
 import TopMenu from '../components/TopMenu'
 import IntroCard from '../components/IntroCard'
 import FontList from '../components/FontList'
