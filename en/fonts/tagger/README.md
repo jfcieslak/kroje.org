@@ -15,23 +15,23 @@ font:
             font: Tagger-Regular
     covers:
         -
-            link: /font-covers/tagger/1.svg
+            link: /images/font-covers/tagger/1.svg
             color: "#474A58"
         -
-            link: /font-covers/tagger/2.svg
+            link: /images/font-covers/tagger/2.svg
             color: "#474A58"
         -
-            link: /font-covers/tagger/3.svg
+            link: /images/font-covers/tagger/3.svg
             color: "#474A58"
         -
-            link: /font-covers/tagger/4.svg
+            link: /images/font-covers/tagger/4.svg
             color: "#E2E8E9"
         -
-            link: /font-covers/tagger/5.svg
+            link: /images/font-covers/tagger/5.svg
             color: "#E2E8E9"
 author:
     name: Zuzanna Rogatty
-    photo: /authors/zr.jpg
+    photo: /images/authors/zr.jpg
     desc: 'Graphic designer specialising in visual identity, lettering and typography. Graduated from the Graphic and Communication Design Dept. on Poznań Fine Arts University. Designer at Mamastudio. She is the author of the visual identity for Two Shores Festival, FAMA Festival, and others. Rogatty’s work was featured on several exhibitions such as: „Places of Origin: Polish Graphic Design in Context”, “Polish Logo Design Exhibition” and “Typopolo”.'
 
     links:

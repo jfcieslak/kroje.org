@@ -12,17 +12,17 @@ font:
             font: Apropal-Bold
     covers:
         -
-            link: /font-covers/apropal/1.svg
+            link: /images/font-covers/apropal/1.svg
             color: "#474A58"
         -
-            link: /font-covers/apropal/2.svg
+            link: /images/font-covers/apropal/2.svg
             color: "#F9E276"
         -
-            link: /font-covers/apropal/3.svg
+            link: /images/font-covers/apropal/3.svg
             color: "#F9E276"
 author:
     name: Rafał Buchner
-    photo: /authors/rb.jpg
+    photo: /images/authors/rb.jpg
     desc: Absolwent Wydziału Grafiki Akademi Sztuk Pięknych w Warszawie. Zajmuje się projektowaniem krojów pism, m.in. dla „Tygodnika Powszechnego” i „Domu Spotkań z Historią”. Współpracował także z Fundacją Nowej Kultury „Bęc Zmiana”, Fundacją Polskiej Sztuki Nowoczesnej i miesięcznikiem „Znak”.
     links:
         -

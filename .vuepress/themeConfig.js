@@ -6,11 +6,11 @@ module.exports = {
             },
             {
                 title: 'O projekcie',
-                href: '/about'
+                href: '/about/'
             },
             {
                 title: 'Archiwum',
-                href: '/resources'
+                href: '/resources/'
             }
         ],
         en: [{
@@ -19,11 +19,11 @@ module.exports = {
             },
             {
                 title: 'About',
-                href: '/en/about'
+                href: '/en/about/'
             },
             {
                 title: 'Resources',
-                href: '/en/resources'
+                href: '/en/resources/'
             }
         ]
     },

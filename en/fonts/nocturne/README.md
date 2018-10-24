@@ -12,20 +12,20 @@ font:
             font: NocturneSerif-Regular
     covers:
         -
-            link: /font-covers/nocturne/1.svg
+            link: /images/font-covers/nocturne/1.svg
             color: "#E2E8E9"
         -
-            link: /font-covers/nocturne/2.svg
+            link: /images/font-covers/nocturne/2.svg
             color: "#E2E8E9"
         -
-            link: /font-covers/nocturne/3.svg
+            link: /images/font-covers/nocturne/3.svg
             color: "#E2E8E9"
         -
-            link: /font-covers/nocturne/4.svg
+            link: /images/font-covers/nocturne/4.svg
             color: "#E2E8E9"
 author:
     name: Mateusz Machalski
-    photo: /authors/mm.jpg
+    photo: /images/authors/mm.jpg
     desc: Graduated from the Graphic Design Dept. on Warsaw Academy of Fine Arts. Specializes in corporate identity and type design. Designer of the visual identity of the Lech Wałęsa Solidarity Award and the family of 42 fonts for the Tupperware corporation. Art director of “Warsawholic” magazine.
 
     links:

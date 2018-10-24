@@ -21,24 +21,24 @@ font:
             font: Cyrulik-Stencil
     covers:
         -
-            link: /font-covers/cyrulik/1.svg
+            link: /images/font-covers/cyrulik/1.svg
             color: "#E54847"
         -
-            link: /font-covers/cyrulik/2.svg
+            link: /images/font-covers/cyrulik/2.svg
             color: "#E54847"
         -
-            link: /font-covers/cyrulik/3.svg
+            link: /images/font-covers/cyrulik/3.svg
             color: "#E54847"
         -
-            link: /font-covers/cyrulik/4.svg
+            link: /images/font-covers/cyrulik/4.svg
             color: "#E2E8E9"
         -
-            link: /font-covers/cyrulik/5.svg
+            link: /images/font-covers/cyrulik/5.svg
             color: "#E2E8E9"
 
 author:
     name: Maciej Połczyński
-    photo: /authors/mp.jpg
+    photo: /images/authors/mp.jpg
     desc: Absolwent wydziału Sztuki Nowych Mediów w Polsko-Japońskiej Akademii Technik Komputerowych w Warszawie. Zajmuję się projektowanie krojów pisma, brandingiem i animacją. Stypendysta Type Directors Club.
     links:
         -

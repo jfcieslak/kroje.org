@@ -1,9 +1,9 @@
 ---
-title: O projekcie
-wip: This page will be available soon!
+layout: Article
+title: About
 ---
 
-*Currently, this page is only in Polish.  We will make it available in English very soon.*
+*Currently, this page is only in Polish. We will make it available in English soon.*
 
 # O projekcie
 
@@ -13,7 +13,7 @@ wip: This page will be available soon!
 
 Inspiracją i podstawą dla Warszawskich Krojów jest liternictwo warszawskiej ulicy. Interesowała nas przede wszystkim typografia wernakularna – a więc tworzona rękami amatorów i rzemieślników.  Zanim ulice zostały zdominowane przez globalne marki i banalne projekty oparte na popularnych fontach, odręczne i rzemieślnicze liternictwo było najpowszechniejszą formą grafiki w przestrzeni publicznej. Twórcy tych napisów inspirowali się wzajemnie, dlatego powstawały mody i "mikro-style", mające silnie lokalny charakter. Z każdym dniem na ulicach zostaje ich coraz mniej. Przeważnie są to jednorazowe realizacje, nieoparte na istniejących czcionkach. Te napisy, wykonane różnymi technikami, rzadko posiadają jakąkolwiek dokumentację oprócz przypadkowych zdjęć – kiedy znikają z witryn, wywieszek i tablic, zazwyczaj znikają bezpowrotnie.
 
-![Warszawskie Kroje – spacery typograficzne](/static/images/wk-about/warszawskie-kroje-00.jpg)
+![Warszawskie Kroje – spacery typograficzne](../../about/images/warszawskie-kroje-00.jpg)
 
 <p class="caption">
 Warszawskie Kroje – fragmenty liternictwa z dokumentacji projektu
@@ -29,11 +29,11 @@ Celem naszego projektu nie było jedynie cyfrowe odtworzenie historycznych kroj�
 
 Projekt Warszawskie Kroje zaczęliśmy otwartymi wykładami, wprowadzającymi w kontekst miejskiej typografii. Varsavianista Jarosław Zieliński przybliżył nam jak wyglądało liternictwo na ulicach Warszawy przedwojennej. Agata Szydłowska, krytyczka dizajnu, opowiedziała o kontekście projektowania inspirowanego typografią wernakularną.
 
-![Warszawskie Kroje – spacery typograficzne](/static/images/wk-about/warszawskie-kroje-01.jpg)
+![Warszawskie Kroje – spacery typograficzne](../../about/images/warszawskie-kroje-01.jpg)
 
-![Warszawskie Kroje – spacery typograficzne](/static/images/wk-about/warszawskie-kroje-20.jpg)
+![Warszawskie Kroje – spacery typograficzne](../../about/images/warszawskie-kroje-20.jpg)
 
-![Warszawskie Kroje – spacery typograficzne](/static/images/wk-about/warszawskie-kroje-23.jpg)
+![Warszawskie Kroje – spacery typograficzne](../../about/images/warszawskie-kroje-23.jpg)
 
 <p class="caption">
 Badania miejskiej typografii – spacery
@@ -48,9 +48,9 @@ Sam proces projektowania nowych krojów trwał w sumie osiem miesięcy. Co oko�
 
 Pierwsze spotkania w marcu i w kwietniu odbywały się w PaństwoMiasto. Na tym etapie uczestnicy warsztatów mieli za zadanie wybrać kierunki dla swoich projektów i odpowiedzieć sobie na kluczowe  pytania: co to oznacza, że krój pisma może być Warszawski? Czy styl typograficzny może mieć aż tak lokalny charakter? Zadanie jakie zostało postawione przed projektantami było bardzo specyficzne, a etap badań wizualnych podsuwał konkretne inspiracje. Pomimo to, nie chcieliśmy narzucać żadnych rozwiązań, a interpretacja zadania była w pełni otwarta. W międzyczasie powstawało wiele szkiców i ciekawych interpretacji.
 
-![Warszawskie Kroje w PaństwoMiasto](/static/images/wk-about/warszawskie-kroje-02.jpg)
+![Warszawskie Kroje w PaństwoMiasto](../../about/images/warszawskie-kroje-02.jpg)
 
-![Warszawskie Kroje w PaństwoMiasto](/static/images/wk-about/warszawskie-kroje-03.jpg)
+![Warszawskie Kroje w PaństwoMiasto](../../about/images/warszawskie-kroje-03.jpg)
 
 <p class="caption">
 Warsztaty w PaństwoMiasto – dyskusje, szkice i praca koncepcyjna
@@ -59,15 +59,15 @@ Fot. Franciszek Cieślak
 
 Wiosną i latem, gdy zrobiło się cieplej, przenieśliśmy się do ogrodów domków fińskich w Otwartym Jazdowie. Pracowaliśmy zazwyczaj na świeżym powietrzu. Na tym etapie kroje zaczęły nabierać już bardzo konkretnych kształtów. Odpowiedzi na pytanie: czym może być warszawski font, były zaskakująco różnorodne. Niektórzy projektanci skupili się na poszukiwaniu esencji stylu. Ich projekty były oparte na najciekawszych, powtarzalnych elementach typograficznych, które przewijały się w naszej dokumentacji. Powstały w ten sposób charakterystyczne display'owe kroje jak Zakład, Praho, Apropal czy Cyrulik. Źródłem inspiracji były też odręczne "pisanki" oraz lekkie liternictwo neonów – m.in Bajaderka, Havana, ale także modułowy Lombard choć połączony jest z blokowym stylem liter szyldów tabliczkowych. Tagger nawiązuje do ulicznego grafitti. Olympic jest oryginalną hybrydą odręcznego liternictwa szyldowego i rytych kamiennych tablic. Magiel eksploruje nonszalanckie błędy i humor wernakularnej typografii. Praktyczny Rewir jest natomiast odpowiedzią na swoiste zapotrzebowanie Warszawy na porządny way-finding'owy krój urzędowy. Nocturne to konceptualny projekt alfabetu opartego na przedwojennym liternictwie hebrajskim, ale też silnie nawiązujący do stylu powojennych tablic upamiętniających.
 
-## ![Warszawskie Kroje w PaństwoMiasto](/static/images/wk-about/warszawskie-kroje-06.jpg)
+## ![Warszawskie Kroje w PaństwoMiasto](../../about/images/warszawskie-kroje-06.jpg)
 
-![Warszawskie Kroje w PaństwoMiasto](/static/images/wk-about/warszawskie-kroje-10.jpg)
+![Warszawskie Kroje w PaństwoMiasto](../../about/images/warszawskie-kroje-10.jpg)
 
-![Warszawskie Kroje w PaństwoMiasto](/static/images/wk-about/warszawskie-kroje-11.jpg)
+![Warszawskie Kroje w PaństwoMiasto](../../about/images/warszawskie-kroje-11.jpg)
 
-![Warszawskie Kroje w PaństwoMiasto](/static/images/wk-about/warszawskie-kroje-14.jpg)
+![Warszawskie Kroje w PaństwoMiasto](../../about/images/warszawskie-kroje-14.jpg)
 
-![Warszawskie Kroje w PaństwoMiasto](/static/images/wk-about/warszawskie-kroje-15.jpg)
+![Warszawskie Kroje w PaństwoMiasto](../../about/images/warszawskie-kroje-15.jpg)
 
 <p class="caption">
 Warsztaty w Otwartym Jazdowie
@@ -82,7 +82,7 @@ Fot. Franciszek Cieślak
 
 12 listopada 2016 roku otworzyliśmy wystawę *Warszawskich Krojów* w Muzeum Warszawskiej Pragi. Wtedy też fonty zostały oficjalnie opublikowane i udostępnione szerokiej publiczności.
 
-![Warszawskie Kroje – wystawa w Muzeum Pragi](/static/images/wk-about/warszawskie-kroje-19.jpg)
+![Warszawskie Kroje – wystawa w Muzeum Pragi](../../about/images/warszawskie-kroje-19.jpg)
 
 <p class="caption">
 Wystawa *Warszawskie Kroje* w Muzeum Warszawskiej Pragi

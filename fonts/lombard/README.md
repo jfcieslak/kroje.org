@@ -13,17 +13,17 @@ font:
             font: Lombard-Regular
     covers:
         -
-            link: /font-covers/lombard/1.svg
+            link: /images/font-covers/lombard/1.svg
             color: "#FDEBE8"
         -
-            link: /font-covers/lombard/2.svg
+            link: /images/font-covers/lombard/2.svg
             color: "#FDEBE8"
         -
-            link: /font-covers/lombard/3.svg
+            link: /images/font-covers/lombard/3.svg
             color: "#FDEBE8"
 author:
     name: Ania Wieluńska
-    photo: /authors/aw.jpg
+    photo: /images/authors/aw.jpg
     desc: Studentka Wydziału Grafiki Akademii Sztuk Pięknych w Warszawie, zajmuję się grafiką użytkową, malarstwem i litografią. Interesuje się także projektowaniem fontów skryptowych. Stypendystka Ministra Kultury i Dziedzictwa Narodowego oraz Type Directors Club.
     links:
         -

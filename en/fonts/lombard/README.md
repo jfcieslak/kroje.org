@@ -13,17 +13,17 @@ font:
             font: Lombard-Regular
     covers:
         -
-            link: /font-covers/lombard/1.svg
+            link: /images/font-covers/lombard/1.svg
             color: "#FDEBE8"
         -
-            link: /font-covers/lombard/2.svg
+            link: /images/font-covers/lombard/2.svg
             color: "#FDEBE8"
         -
-            link: /font-covers/lombard/3.svg
+            link: /images/font-covers/lombard/3.svg
             color: "#FDEBE8"
 author:
     name: Ania Wieluńska
-    photo: /authors/aw.jpg
+    photo: /images/authors/aw.jpg
     desc: Student of the Graphic Design Dept. on Warsaw Academy of Fine Arts. Designer, painter and lithography artist. Interested in script fonts. Received scholarships from the Ministry of Culture and Type Directors Club.
     links:
         -

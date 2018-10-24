@@ -32,6 +32,7 @@ export default {
 		msg(content) {this.isIn = content !== ''}
 	},
 	mounted() {
+		this.onScroll()
 		window.addEventListener('scroll', this.onScroll)
 	}
 }

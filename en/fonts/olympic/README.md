@@ -13,20 +13,20 @@ font:
             font: Olympic-Light
     covers:
         -
-            link: /font-covers/olympic/1.svg
+            link: /images/font-covers/olympic/1.svg
             color: "#E2E8E9"
         -
-            link: /font-covers/olympic/2.svg
+            link: /images/font-covers/olympic/2.svg
             color: "#E2E8E9"
         -
-            link: /font-covers/olympic/3.svg
+            link: /images/font-covers/olympic/3.svg
             color: "#E2E8E9"
         -
-            link: /font-covers/olympic/4.svg
+            link: /images/font-covers/olympic/4.svg
             color: "#E2E8E9"
 author:
     name: Ludka Niezgoda
-    photo: /authors/ln.jpg
+    photo: /images/authors/ln.jpg
     desc: Student of the Graphic Design Dept. on Warsaw Academy of Fine Arts.  Scholar of the National Children’s Fund. She is a lettering and type designer.
     links:
         -

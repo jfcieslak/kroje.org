@@ -12,20 +12,20 @@ font:
             font: Havana-Regular
     covers:
         -
-            link: /font-covers/havana/1.svg
+            link: /images/font-covers/havana/1.svg
             color: "#FBE8E2"
         -
-            link: /font-covers/havana/2.svg
+            link: /images/font-covers/havana/2.svg
             color: "#474A58"
         -
-            link: /font-covers/havana/3.svg
+            link: /images/font-covers/havana/3.svg
             color: "#474A58"
         -
-            link: /font-covers/havana/4.svg
+            link: /images/font-covers/havana/4.svg
             color: "#FBE8E2"
 author:
     name: Joanna Angulska
-    photo: /authors/ja.jpg
+    photo: /images/authors/ja.jpg
     desc: Graduated from the Graphic and Communication Design Dept. on Poznań Fine Arts University. Specializes in logo, layout and branding design. Participant and a speaker in “Plaster” and “Typolub” conferences.
 
     links:

@@ -13,20 +13,20 @@ font:
             font: Magiel-Black
     covers:
         -
-            link: /font-covers/magiel/1.svg
+            link: /images/font-covers/magiel/1.svg
             color: "#522D84"
         -
-            link: /font-covers/magiel/2.svg
+            link: /images/font-covers/magiel/2.svg
             color: "#522D84"
         -
-            link: /font-covers/magiel/3.svg
+            link: /images/font-covers/magiel/3.svg
             color: "#FBE8E2"
         -
-            link: /font-covers/magiel/4.svg
+            link: /images/font-covers/magiel/4.svg
             color: "#FBE8E2"
 author:
     name: Mateusz Machalski
-    photo: /authors/mm.jpg
+    photo: /images/authors/mm.jpg
     desc: Absolwent Wydziału Grafiki Akademi Sztuk Pięknych w Warszawie. Zajmuje się projektowaniem identyfikacji wizualnych oraz krojów pism. Autor m.in. identyfikacji wizualnej Nagrody Solidarności im. Lecha Wałęsy oraz projektu rodziny 42 odmian krojów pism dla korporacji Tupperware. Dyrektor artystyczny magazynu „Warsawholic”.
 
     links:

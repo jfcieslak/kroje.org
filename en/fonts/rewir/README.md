@@ -13,20 +13,20 @@ font:
             font: Rewir-Light
     covers:
         -
-            link: /font-covers/rewir/1.svg
+            link: /images/font-covers/rewir/1.svg
             color: "#E54847"
         -
-            link: /font-covers/rewir/2.svg
+            link: /images/font-covers/rewir/2.svg
             color: "#E54847"
         -
-            link: /font-covers/rewir/3.svg
+            link: /images/font-covers/rewir/3.svg
             color: "#E54847"
         -
-            link: /font-covers/rewir/4.svg
+            link: /images/font-covers/rewir/4.svg
             color: "#E54847"
 author:
     name: Robert Jarzec
-    photo: /authors/rj.jpg
+    photo: /images/authors/rj.jpg
     desc: Type, lettering, information architecture and user experience designer. Graduated from the Letter Design Workshop on Poznań Fine Arts University and Cultural Studies on Adam Mickiewicz University. Currently teaching on Poznań Fine Arts University.
 
     links:

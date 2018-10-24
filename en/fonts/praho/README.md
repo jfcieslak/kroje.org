@@ -13,20 +13,20 @@ font:
             font: Praho-Black
     covers:
         -
-            link: /font-covers/praho/1.svg
+            link: /images/font-covers/praho/1.svg
             color: "#B49D4F"
         -
-            link: /font-covers/praho/2.svg
+            link: /images/font-covers/praho/2.svg
             color: "#E2E8E9"
         -
-            link: /font-covers/praho/3.svg
+            link: /images/font-covers/praho/3.svg
             color: "#E2E8E9"
         -
-            link: /font-covers/praho/4.svg
+            link: /images/font-covers/praho/4.svg
             color: "#E2E8E9"
 author:
     name: Maciej Włoczewski
-    photo: /authors/mw.jpg
+    photo: /images/authors/mw.jpg
     desc: Student of the Graphic Design Dept. on Warsaw Academy of Fine Arts. Type designer and a photographer.
     links:
         -

@@ -13,20 +13,20 @@ font:
             font: Zaklad-Regular
     covers:
         -
-            link: /font-covers/zaklad/1.svg
+            link: /images/font-covers/zaklad/1.svg
             color: "#E2E8E9"
         -
-            link: /font-covers/zaklad/2.svg
+            link: /images/font-covers/zaklad/2.svg
             color: "#E2E8E9"
         -
-            link: /font-covers/zaklad/3.svg
+            link: /images/font-covers/zaklad/3.svg
             color: "#E2E8E9"
         -
-            link: /font-covers/zaklad/4.svg
+            link: /images/font-covers/zaklad/4.svg
             color: "#E2E8E9"
 author:
     name: Szymon Sznajder
-    photo: /authors/ss.jpg
+    photo: /images/authors/ss.jpg
     desc: Graduated from the Fine Arts University in Poznań, with the masters degree in type design. Received multiple awards and citations. His work was included in the Graduation Projects Review. Recipient of the Maria Dokowicz scholarship. Currently he is works both on commercial projects, as well as a lecturer on Fine Arts University in Poznań.
 
     links:

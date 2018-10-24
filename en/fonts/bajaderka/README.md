@@ -12,20 +12,20 @@ font:
             font: Bajaderka-Regular
     covers:
         -
-            link: /font-covers/bajaderka/1.svg
+            link: /images/font-covers/bajaderka/1.svg
             color: "#FDEBE8"
         -
-            link: /font-covers/bajaderka/2.svg
+            link: /images/font-covers/bajaderka/2.svg
             color: "#FDEBE8"
         -
-            link: /font-covers/bajaderka/3.svg
+            link: /images/font-covers/bajaderka/3.svg
             color: "#522D84"
         -
-            link: /font-covers/bajaderka/4.svg
+            link: /images/font-covers/bajaderka/4.svg
             color: "#522D84"
 author:
     name: Beata Kurek
-    photo: /authors/bk.jpg
+    photo: /images/authors/bk.jpg
     desc: Graduated from the Graphic and Communication Design Dept. on Poznań Fine Arts University. As a LoveLetters Studio, she designs fonts and lettering based on calligraphic writing. She also teaches lettering on workshops. Participant of  “Bękart” and “Jasnowidze” projects.
     links:
         -

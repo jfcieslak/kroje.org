@@ -12,20 +12,20 @@ font:
             font: Havana-Regular
     covers:
         -
-            link: /font-covers/havana/1.svg
+            link: /images/font-covers/havana/1.svg
             color: "#FBE8E2"
         -
-            link: /font-covers/havana/2.svg
+            link: /images/font-covers/havana/2.svg
             color: "#474A58"
         -
-            link: /font-covers/havana/3.svg
+            link: /images/font-covers/havana/3.svg
             color: "#474A58"
         -
-            link: /font-covers/havana/4.svg
+            link: /images/font-covers/havana/4.svg
             color: "#FBE8E2"
 author:
     name: Joanna Angulska
-    photo: /authors/ja.jpg
+    photo: /images/authors/ja.jpg
     desc: Absolwentka Wydziału Grafiki i Komunikacji Wizualnej na Uniwersytecie Artystycznym w Poznaniu. Zajmuję się projektowaniem logotypów, składem tekstu i szeroko pojętym brandingiem. Uczestniczka i wykładowczymi konferencji „Plaster” w Toruniu oraz „Typolub” w Lublinie.
     links:
         -

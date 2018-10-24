@@ -12,17 +12,17 @@ font:
             font: Apropal-Bold
     covers:
         -
-            link: /font-covers/apropal/1.svg
+            link: /images/font-covers/apropal/1.svg
             color: "#474A58"
         -
-            link: /font-covers/apropal/2.svg
+            link: /images/font-covers/apropal/2.svg
             color: "#F9E276"
         -
-            link: /font-covers/apropal/3.svg
+            link: /images/font-covers/apropal/3.svg
             color: "#F9E276"
 author:
     name: Rafał Buchner
-    photo: /authors/rb.jpg
+    photo: /images/authors/rb.jpg
     desc: Graduated from the Graphic Design Dept. on Warsaw Academy of Fine Arts. Type designer for “Tygodnik Powszechny” weekly magazine, “History Meeting House” and others. Cooperated with „Bęc Zmiana” Cultural Foundation, Polish Modern Art Foundation, and “Znak” monthly magazine.
     links:
         -

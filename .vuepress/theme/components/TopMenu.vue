@@ -68,14 +68,16 @@ body.menu-on
 	font-family: $M2
 	display: block
 	float: left
-	padding: 1rem 2rem
+	padding: 1rem 2.4rem
 	font-size: 1rem
 	h3
 		font-size: 1.3em
 		letter-spacing: .06em
 		margin-bottom: .4em
+		margin-top 0
 	h4
 		font-size: .8em
+		margin-top .8em
 		font-weight: 400
 		text-transform: uppercase
 		letter-spacing: .1em
@@ -102,7 +104,7 @@ body.menu-on
 	font-family: $M2
 	letter-spacing: .07em
 	float: right
-	padding: 1.5rem 2rem 1rem 2rem
+	padding: 1.5rem 2.4rem 1rem 2.4rem
 	transition: all .5s ease
 	a
 		margin-left: 4em

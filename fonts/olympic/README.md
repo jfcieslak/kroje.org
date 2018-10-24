@@ -13,20 +13,20 @@ font:
             font: Olympic-Light
     covers:
         -
-            link: /font-covers/olympic/1.svg
+            link: /images/font-covers/olympic/1.svg
             color: "#E2E8E9"
         -
-            link: /font-covers/olympic/2.svg
+            link: /images/font-covers/olympic/2.svg
             color: "#E2E8E9"
         -
-            link: /font-covers/olympic/3.svg
+            link: /images/font-covers/olympic/3.svg
             color: "#E2E8E9"
         -
-            link: /font-covers/olympic/4.svg
+            link: /images/font-covers/olympic/4.svg
             color: "#E2E8E9"
 author:
     name: Ludka Niezgoda
-    photo: /authors/ln.jpg
+    photo: /images/authors/ln.jpg
     desc: Studentka Akademii Sztuk Pięknych w Warszawie. Stypendystka Krajowego Funduszu na rzecz Dzieci. Zajmuje się głównie typografią i projektowaniem krojów pism.
     links:
         -
