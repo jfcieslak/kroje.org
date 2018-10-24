@@ -1,0 +1,24 @@
+@import '../../../node_modules/rupture/rupture'
+@import 'imports/variables'
+@import 'imports/mixins'
+@import 'imports/typography'
+@import 'imports/animations'
+
+@lost flexbox flex
+
+html
+	font-size: 15px
+	+below(1500px)
+		font-size: 13px
+	+below(1000px)
+		font-size: 12px
+	+below(800px)
+		font-size: 10px
+	+below(600px)
+		font-size: 11px
+body
+	margin 0
+	// lost-utility: edit
+	// grid-guide(12, $gutter/2, $grid-width, $gutter/2)
+*
+	box-sizing: border-box

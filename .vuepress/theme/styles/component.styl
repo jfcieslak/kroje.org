@@ -1,0 +1,27 @@
+@import '../../../node_modules/rupture/rupture/'
+@import 'imports/mixins'
+@import 'imports/animations'
+@import 'imports/variables'
+// page article defaults
+.article-view
+	lost-center: $grid-width $gutter/2
+	margin: 10rem auto
+	h1
+		margin-top: 6rem
+		padding-bottom: 1em
+		border-bottom: 3px solid black
+	a
+		color: blue
+		text-decoration: underline
+#page-menu
+	lost-column: 2/12 3 $gutter
+	+below(780px)
+		display: none
+.content
+	max-width: 60rem
+	padding $gutter
+	margin: 0 auto
+	hyphens: auto
+.caption
+	font-size: 1rem
+	line-height: 1.6em
