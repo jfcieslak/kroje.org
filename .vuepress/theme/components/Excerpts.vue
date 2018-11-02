@@ -1,8 +1,8 @@
 <template lang='pug'>
-	#excerpts
-		.more-item( v-for="(item, key) in items", :class="{wip: item.wip}")
-			router-link.more-item-link(:to="item.wip ? null : $localeConfig.path + key") {{item.title}}
-			p.more-item-text {{item.text}}
+#excerpts
+	.more-item( v-for="(item, key) in items", :class="{wip: item.wip}")
+		router-link.more-item-link(:to="$localeConfig.path + key + '/'") {{item.title}}
+		p.more-item-text {{item.text}}
 </template>
 
 <script>
