@@ -39,5 +39,11 @@ module.exports = {
 				breaks: true
 			})
 		}
+	},
+
+	plugins: {
+		'sitemap': {
+			hostname: 'https://kroje.org'
+		}
 	}
 }
