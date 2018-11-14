@@ -3,7 +3,7 @@ const themeConfig = require('./themeConfig')
 module.exports = {
 	title: 'Warszawskie Kroje',
 	
-	description: 'Warszawskie Kroje to 12 nowych, darmowych krojów pism stworzonych specjalnie dla Warszawy, w oparciu o lokalne tradycje typograficzne.',
+	description: 'Nowe kroje dla Warszawy',
 	
 	themeConfig: themeConfig,
 
