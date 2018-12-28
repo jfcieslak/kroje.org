@@ -90,6 +90,7 @@ export default {
 		text-transform: uppercase
 		line-height: 1.2em
 		letter-spacing: .02em
+		margin 1rem 0
 		+above(780px, true)
 			lost-column: 1.5/12 12 $gutter flex
 		+below(780px, true)
@@ -101,12 +102,12 @@ export default {
 	.partner
 		display: block
 		margin-right: 3rem
+		img
+			max-height: 2.5rem
+			max-width: 6rem
 		+below(780px, true)
 			margin-right: 2rem
 			margin-bottom: 1rem
-			img
-				max-height: 2rem
-				max-width: 5rem
 		+below(600px, true)
 			margin: .5rem .8rem
 	.organizers-row

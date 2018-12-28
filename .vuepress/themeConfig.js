@@ -57,7 +57,8 @@ module.exports = {
                 name: 'github'
             }
         ],
-        partners: [{
+        partners: [
+            {
                 link: 'http://www.um.warszawa.pl/',
                 logo: '/images/logos/warszawa.svg',
                 name: 'miasto st. Warszawa'
@@ -76,6 +77,11 @@ module.exports = {
                 link: 'http://muzeumwarszawy.pl/',
                 logo: '/images/logos/mw.svg',
                 name: 'Muzeum Warszawy'
+            },
+            {
+                link: 'https://balaganstudio.com/',
+                logo: '/images/logos/balagan.svg',
+                name: 'Balagan'
             }
         ],
         media: [{

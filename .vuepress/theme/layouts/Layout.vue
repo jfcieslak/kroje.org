@@ -18,6 +18,12 @@
 			Excerpts(:items="$page.frontmatter.more")
 
 	section
+		.module#partner
+			h5.module-label reklama
+			a.partner(href="https://balaganstudio.com/?ref=kroje.org" target="_blank")
+				img(src="/images/logos/balagan.svg")
+
+	section
 		.module.full#about-slides
 			picture
 				source(media="(min-width:1081px)"
@@ -81,6 +87,19 @@ export default {
 		letter-spacing: .07em
 		&.no-border
 			border: none
+
+	.module-label
+		font-weight: 200
+		font-size: .8rem
+		text-transform: uppercase
+		line-height: 1.2em
+		letter-spacing: .02em
+		margin 1rem 0
+
+	#partner
+		text-align center
+		background-color rgba(black .05)
+		padding-bottom 3rem
 	#front-cover
 		position: relative
 		width: 100%
@@ -116,6 +135,7 @@ export default {
 			height: 70vh
 
 	#about-slides
+		margin-top 0
 		picture
 			img
 				width: 100%
