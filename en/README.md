@@ -92,6 +92,7 @@ more:
         title: Resources
         text: >
             Learn more about the idea and the process of Warsaw Types, see footage from the workshops, and check out the media coverage.
+adTitle: ad
 ---
 Warsaw Types is a collection of
 **12 new font families**

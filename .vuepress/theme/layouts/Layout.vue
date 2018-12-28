@@ -19,7 +19,7 @@
 
 	section
 		.module#partner
-			h5.module-label reklama
+			h5.module-label {{$page.frontmatter.adTitle}}
 			a.partner(href="https://balaganstudio.com/?ref=kroje.org" target="_blank")
 				img(src="/images/logos/balagan.svg")
 
