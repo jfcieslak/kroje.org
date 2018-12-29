@@ -93,7 +93,7 @@ more:
     resources:
         title: Archiwum
         text: Udostępniamy całą naszą dokumentację i źródła inspiracji – setki zdjęć najciekawszych przykładów warszawskiej typografii, archiwalne projekty neonów i wiele innych.
-adTitle: reklama
+adTitle: 'partner projektu:'
 ---
 Warszawskie Kroje to
 **12 nowych krojów pism**
