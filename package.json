@@ -11,7 +11,7 @@
 		"@vuepress/plugin-google-analytics": "^1.0.0-alpha.0",
 		"lost": "^8.3.0",
 		"postcss-preset-env": "^6.2.0",
-		"pug": "^2.0.3",
+		"pug": "^3.0.1",
 		"pug-plain-loader": "^1.0.0",
 		"rupture": "^0.7.1"
 	}
